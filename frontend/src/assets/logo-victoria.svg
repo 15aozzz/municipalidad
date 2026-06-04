@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" style="width: 100%; height: 100%; fill: currentColor;">
+  <!-- Cabeza izquierda y corona -->
+  <path d="M 38 18 C 38 12, 34 8, 30 10 C 27 11, 26 14, 28 17 C 26 17, 24 19, 25 21 C 26 23, 30 22, 33 24 C 35 24, 38 21, 38 18 Z" />
+  <path d="M 28 8 L 32 4 L 35 7 L 31 10 Z" />
+  
+  <!-- Cabeza derecha y corona -->
+  <path d="M 52 18 C 52 12, 56 8, 60 10 C 63 11, 64 14, 62 17 C 64 17, 66 19, 65 21 C 64 23, 60 22, 57 24 C 55 24, 52 21, 52 18 Z" />
+  <path d="M 62 8 L 58 4 L 55 7 L 59 10 Z" />
+
+  <!-- Letras I K y Estrella Superior -->
+  <text x="21" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="8.5" fill="currentColor">I</text>
+  <text x="65" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="8.5" fill="currentColor">K</text>
+  <text x="44" y="11" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="10" fill="currentColor">*</text>
+
+  <!-- Alas izquierdas -->
+  <path d="M 32 30 C 20 28, 8 36, 12 55 C 14 62, 20 68, 26 65 C 22 55, 24 45, 34 38 Z" />
+  <path d="M 26 40 C 18 42, 10 50, 14 65 C 18 68, 22 68, 26 62 Z" opacity="0.8" />
+  <path d="M 20 48 C 14 52, 12 58, 16 72 C 19 72, 22 70, 24 66 Z" opacity="0.6" />
+
+  <!-- Alas derechas -->
+  <path d="M 58 30 C 70 28, 82 36, 78 55 C 76 62, 70 68, 64 65 C 68 55, 66 45, 56 38 Z" />
+  <path d="M 64 40 C 72 42, 80 50, 76 65 C 72 68, 68 68, 64 62 Z" opacity="0.8" />
+  <path d="M 70 48 C 76 52, 78 58, 74 72 C 71 72, 68 70, 66 66 Z" opacity="0.6" />
+
+  <!-- Cola de Águila -->
+  <path d="M 38 60 L 32 80 C 35 85, 55 85, 58 80 L 52 60 Z" />
+  <path d="M 34 80 L 30 92 L 38 88 L 45 94 L 52 88 L 60 92 L 56 80 Z" opacity="0.9" />
+
+  <!-- Escudo Central -->
+  <path d="M 30 35 C 30 35, 30 75, 45 83 C 60 75, 60 35, 60 35 Z" fill="#ffffff" stroke="currentColor" stroke-width="4" />
+  <path d="M 32.5 37.5 C 32.5 37.5, 32.5 73, 45 80 C 57.5 73, 57.5 37.5, 57.5 37.5 Z" fill="currentColor" />
+  
+  <!-- Puntos decorativos del borde -->
+  <circle cx="34.5" cy="45" r="0.75" fill="#ffffff" />
+  <circle cx="34.5" cy="55" r="0.75" fill="#ffffff" />
+  <circle cx="37.5" cy="65" r="0.75" fill="#ffffff" />
+  <circle cx="41.5" cy="73" r="0.75" fill="#ffffff" />
+  <circle cx="45" cy="77" r="0.75" fill="#ffffff" />
+  <circle cx="49" cy="77" r="0.75" fill="#ffffff" />
+  <circle cx="52.5" cy="73" r="0.75" fill="#ffffff" />
+  <circle cx="56.5" cy="65" r="0.75" fill="#ffffff" />
+  <circle cx="59" cy="55" r="0.75" fill="#ffffff" />
+  <circle cx="59" cy="45" r="0.75" fill="#ffffff" />
+  
+  <!-- Coronas internas -->
+  <path d="M 38 52 L 40 48 L 42 50 L 44 48 L 46 52 Z" fill="#ffffff" />
+  <path d="M 48 52 L 50 48 L 52 50 L 54 48 L 56 52 Z" fill="#ffffff" />
+  <path d="M 43 65 L 45 61 L 47 63 L 49 61 L 51 65 Z" fill="#ffffff" />
+  
+  <!-- Estrella interna -->
+  <polygon points="45,39 46,41 48,41 46.5,42.5 47,44.5 45,43.2 43,44.5 43.5,42.5 42,41 44,41" fill="#ffffff" />
+</svg>

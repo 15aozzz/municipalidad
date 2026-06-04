@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #111;
+    font-family: 'Press Start 2P', monospace;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#game-canvas {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.touch-btn {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 3px solid #fff;
+}
+
+.touch-btn:active {
+    background-color: #f59e0b;
+}
+
+@keyframes flashRed {
+    0% { background-color: #ef4444; color: white; }
+    50% { background-color: #000000; color: #ef4444; }
+    100% { background-color: #ef4444; color: white; }
+}
+
+.moto-alert {
+    animation: flashRed 0.3s infinite;
+}
+
+@keyframes walkBob {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-7px) rotate(2deg); }
+}
+
+.walking {
+    animation: walkBob 0.3s infinite ease-in-out;
+}
+
