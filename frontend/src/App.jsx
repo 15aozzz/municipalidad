@@ -7,9 +7,12 @@ import { TramitesProvider } from './contexts/TramitesContext';
 
 import AppLayout from './components/layout/AppLayout';
 import LoginForm from './components/auth/LoginForm';
+import RegisterForm from './components/auth/RegisterForm';
 import CitizenDashboard from './components/citizen/CitizenDashboard';
+import CitizenHistory from './components/citizen/CitizenHistory';
 import StaffDashboard from './components/staff/StaffDashboard';
 import PrivateRoute from './components/common/PrivateRoute';
+import LandingPage from './components/common/LandingPage';
 
 function App() {
   return (
@@ -21,12 +24,14 @@ function App() {
               <Routes>
                 {/* Rutas Públicas */}
                 <Route path="/" element={<AppLayout />}>
-                  <Route index element={<Navigate to="/login" replace />} />
+                  <Route index element={<LandingPage />} />
                   <Route path="login" element={<LoginForm />} />
+                  <Route path="register" element={<RegisterForm />} />
 
                   {/* Rutas Protegidas - Ciudadano */}
                   <Route element={<PrivateRoute allowedRoles={['ciudadano', 'staff', 'admin']} />}>
                     <Route path="dashboard" element={<CitizenDashboard />} />
+                    <Route path="historial" element={<CitizenHistory />} />
                   </Route>
 
                   {/* Rutas Protegidas - Staff / Admin */}

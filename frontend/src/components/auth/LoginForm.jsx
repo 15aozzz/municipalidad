@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
 import { Mail, Lock, LogIn } from 'lucide-react';
 import LoadingSpinner from '../common/LoadingSpinner';
@@ -26,7 +26,12 @@ const LoginForm = () => {
     const result = await login(email, password);
     
     if (result.success) {
-      navigate('/dashboard');
+      const storedUser = JSON.parse(localStorage.getItem('user'));
+      if (storedUser && (storedUser.rol === 'staff' || storedUser.rol === 'admin')) {
+        navigate('/staff');
+      } else {
+        navigate('/dashboard');
+      }
     } else {
       setError(result.message);
       setIsLoading(false);
@@ -95,6 +100,13 @@ const LoginForm = () => {
               )}
             </button>
           </form>
+
+          <div style={{ textAlign: 'center', marginTop: '1.5rem', fontSize: '0.875rem' }}>
+            <span style={{ color: 'var(--text-secondary)' }}>¿No tienes una cuenta? </span>
+            <Link to="/register" style={{ color: 'var(--color-primary)', textDecoration: 'none', fontWeight: 'bold' }}>
+              Regístrate aquí
+            </Link>
+          </div>
         </div>
       </div>
     </div>

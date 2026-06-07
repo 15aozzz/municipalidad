@@ -1,191 +1,172 @@
 const Tramite = require('../models/Tramite');
 const ClasificacionService = require('../services/clasificacionService');
+const EmailService = require('../services/emailService');
 const { checkRequiredFields, isValidDni } = require('../utils/validators');
 
-/**
- * Registrar un nuevo trámite municipal (Ciudadanos y Staff).
- */
+// Helper para determinar DNI y Usuario del solicitante
+const resolverSolicitante = async (req, dni) => {
+  if (req.user.rol === 'ciudadano') {
+    return { id: req.user.id, dni: req.user.dni };
+  }
+  if (dni && !isValidDni(dni)) throw new Error('DNI_INVALIDO');
+  
+  const Usuario = require('../models/Usuario');
+  const solicitante = await Usuario.findByDni(dni || req.user.dni);
+  return { 
+    id: solicitante ? solicitante.id : null, 
+    dni: dni || req.user.dni 
+  };
+};
+
 const createTramite = async (req, res) => {
-  const { asunto, descripcion } = req.body;
-  let { dni } = req.body;
+  const { asunto, descripcion, dni } = req.body;
 
   try {
-    // 1. Validar campos requeridos
-    const validation = checkRequiredFields(req.body, ['asunto', 'descripcion']);
-    if (!validation.isValid) {
-      return res.status(400).json({
-        success: false,
-        message: `El campo "${validation.missingField}" es obligatorio.`
-      });
-    }
+    const val = checkRequiredFields(req.body, ['asunto', 'descripcion']);
+    if (!val.isValid) return res.status(400).json({ success: false, message: `El campo "${val.missingField}" es obligatorio.` });
 
-    // 2. Definir DNI y UsuarioID de forma inteligente según el Rol
-    let usuario_id = req.user.id;
-
-    if (req.user.rol === 'ciudadano') {
-      // Para ciudadanos, forzar su propio DNI del Token JWT
-      dni = req.user.dni;
-    } else {
-      // Para Staff/Admin, pueden crear un trámite para un ciudadano proporcionando su DNI
-      if (!dni) {
-        dni = req.user.dni; // Si no lo envían, se usa el suyo por defecto
-      }
-      if (!isValidDni(dni)) {
-        return res.status(400).json({
-          success: false,
-          message: 'El DNI del solicitante debe tener exactamente 8 caracteres numéricos.'
-        });
-      }
-      // Buscar si el DNI enviado corresponde a algún usuario registrado en la BD para vincularlo
-      const Usuario = require('../models/Usuario');
-      const solicitante = await Usuario.findByDni(dni);
-      if (solicitante) {
-        usuario_id = solicitante.id;
-      } else {
-        usuario_id = null; // Trámite de ciudadano no registrado previamente
-      }
-    }
-
-    // 3. Llamar al servicio de Google Colab para clasificar
-    let clasificacion;
+    // Resolver solicitante según rol
+    let solicitante;
     try {
-      clasificacion = await ClasificacionService.clasificar(asunto, descripcion);
+      solicitante = await resolverSolicitante(req, dni);
+    } catch (err) {
+      return res.status(400).json({ success: false, message: 'El DNI debe tener exactamente 8 caracteres numéricos.' });
+    }
+
+    // Clasificación con el modelo de IA en Google Colab
+    let clasif;
+    try {
+      clasif = await ClasificacionService.clasificar(asunto, descripcion);
     } catch (colabError) {
-      // Cumpliendo instrucción del usuario: "si no responde se dice que intente luego y ya. simplemente no se guarda nada"
-      console.error('❌ Abortando guardado del trámite debido a fallo en servicio de IA:', colabError.message);
       return res.status(503).json({
         success: false,
-        message: 'El servicio de clasificación automática no responde en este momento. Por favor, intente nuevamente más tarde.'
+        message: 'El servicio de clasificación por IA no responde. Intente más tarde.'
       });
     }
 
-    const { prioridad, certeza, accion_sugerida } = clasificacion;
-
-    // 4. Guardar en la base de datos MySQL a través del pool
-    const newTramiteId = await Tramite.create({
-      usuario_id,
-      dni,
+    const id = await Tramite.create({
+      usuario_id: solicitante.id,
+      dni: solicitante.dni,
       asunto,
       descripcion,
-      prioridad,
-      certeza,
-      accion_sugerida
+      ...clasif
     });
 
-    // 5. Devolver respuesta exitosa con los datos del trámite y su clasificación
-      return res.status(201).json({
-        success: true,
-        message: 'Trámite registrado e indexado por IA de forma exitosa.',
-        data: {
-          id: newTramiteId,
-          dni,
-          asunto,
-          descripcion,
-          prioridad,
-          certeza,
-          accion_sugerida,
-          estado: 'pendiente',
-          fecha_creacion: new Date().toISOString()
+    // Enviar correo de confirmación de forma asíncrona
+    Tramite.findById(id)
+      .then((newTramite) => {
+        if (newTramite && newTramite.solicitante_email) {
+          EmailService.sendTramiteReceived(
+            newTramite.solicitante_email,
+            newTramite.solicitante,
+            newTramite.id,
+            newTramite.asunto,
+            newTramite.prioridad
+          ).catch(err => console.error('Error al enviar correo de recepción:', err));
         }
-      });
+      })
+      .catch(err => console.error('Error al recuperar datos del trámite para el correo:', err));
 
-  } catch (error) {
-    console.error('❌ Error al crear el trámite:', error);
-    return res.status(500).json({
-      success: false,
-      message: 'Ocurrió un error interno en el servidor al intentar registrar el trámite.'
-    });
-  }
-};
-
-/**
- * Listar trámites con filtros avanzados (Rol-based).
- */
-const getTramites = async (req, res) => {
-  const { estado, prioridad, search } = req.query;
-
-  try {
-    // El modelo maneja internamente las restricciones de rol (Ciudadano vs Staff)
-    const tramites = await Tramite.findAll({ estado, prioridad, search }, req.user);
-
-    return res.status(200).json({
+    return res.status(201).json({
       success: true,
-      message: `Se recuperaron ${tramites.length} trámites exitosamente.`,
-      data: tramites
+      message: 'Trámite registrado e indexado por IA de forma exitosa.',
+      data: { id, dni: solicitante.dni, asunto, descripcion, ...clasif, estado: 'pendiente', fecha_creacion: new Date() }
     });
 
   } catch (error) {
-    console.error('❌ Error al listar trámites:', error);
-    return res.status(500).json({
-      success: false,
-      message: 'Ocurrió un error en el servidor al intentar recuperar la lista de trámites.'
-    });
+    console.error(error);
+    return res.status(500).json({ success: false, message: 'Error interno en el servidor.' });
   }
 };
 
-/**
- * Actualizar estado y asignación de un trámite (Exclusivo Staff/Admin).
- */
+const getTramites = async (req, res) => {
+  try {
+    const tramites = await Tramite.findAll(req.query, req.user);
+    return res.status(200).json({ success: true, count: tramites.length, data: tramites });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ success: false, message: 'Error interno en el servidor.' });
+  }
+};
+
 const updateTramite = async (req, res) => {
   const { id } = req.params;
-  const { estado, asignado_a } = req.body;
+  const { estado, asignado_a, observaciones } = req.body;
+
+  if (estado === undefined && asignado_a === undefined) {
+    return res.status(400).json({ success: false, message: 'Debe enviar "estado" o "asignado_a".' });
+  }
+
+  if (estado && !['pendiente', 'en_proceso', 'atendido', 'rechazado'].includes(estado)) {
+    return res.status(400).json({ success: false, message: 'Estado inválido.' });
+  }
 
   try {
-    // 1. Validar que al menos se envíe un campo a actualizar
-    if (estado === undefined && asignado_a === undefined) {
-      return res.status(400).json({
-        success: false,
-        message: 'Debe proporcionar al menos un campo a actualizar ("estado" o "asignado_a").'
-      });
+    const updated = await Tramite.update(id, { estado, asignado_a });
+    if (!updated) return res.status(404).json({ success: false, message: 'Trámite no encontrado o sin cambios.' });
+
+    const tramite = await Tramite.findById(id);
+
+    // Enviar notificación de correo electrónico al ciudadano
+    if (tramite && tramite.solicitante_email) {
+      EmailService.sendTramiteStatusUpdated(
+        tramite.solicitante_email,
+        tramite.solicitante,
+        tramite.id,
+        tramite.asunto,
+        tramite.estado,
+        observaciones || ''
+      ).catch(err => console.error('Error al enviar correo de actualización de estado:', err));
     }
 
-    // 2. Validar que el estado sea válido si se proporciona
-    if (estado && !['pendiente', 'en_proceso', 'atendido', 'rechazado'].includes(estado)) {
-      return res.status(400).json({
-        success: false,
-        message: 'El estado proporcionado no es válido. Debe ser "pendiente", "en_proceso", "atendido" o "rechazado".'
-      });
-    }
-
-    // 3. Ejecutar la actualización en MySQL
-    const isUpdated = await Tramite.update(id, { estado, asignado_a });
-
-    if (!isUpdated) {
-      return res.status(404).json({
-        success: false,
-        message: 'No se encontró el trámite especificado o no se realizaron cambios.'
-      });
-    }
-
-    // 4. Obtener el trámite actualizado para devolver los detalles nuevos
-    const tramiteActualizado = await Tramite.findById(id);
-
-    return res.status(200).json({
-      success: true,
-      message: 'Trámite actualizado correctamente.',
-      data: tramiteActualizado
-    });
-
+    return res.status(200).json({ success: true, message: 'Trámite actualizado.', data: tramite });
   } catch (error) {
-    console.error('❌ Error al actualizar el trámite:', error);
-    
-    // Controlar errores de clave foránea si se asigna un ID de usuario inexistente
+    console.error(error);
     if (error.code === 'ER_NO_REFERENCED_ROW_2') {
-      return res.status(400).json({
-        success: false,
-        message: 'El ID de usuario especificado en "asignado_a" no existe en el sistema.'
-      });
+      return res.status(400).json({ success: false, message: 'El ID de personal asignado no existe.' });
     }
-
-    return res.status(500).json({
-      success: false,
-      message: 'Ocurrió un error en el servidor al intentar actualizar el trámite.'
-    });
+    return res.status(500).json({ success: false, message: 'Error interno en el servidor.' });
   }
 };
 
-module.exports = {
-  createTramite,
-  getTramites,
-  updateTramite
+const getPublicTramite = async (req, res) => {
+  const { id, dni } = req.params;
+
+  if (!id || !dni) {
+    return res.status(400).json({ success: false, message: 'Debe proporcionar el ID del trámite y el DNI.' });
+  }
+
+  try {
+    const tramite = await Tramite.findById(id);
+    if (!tramite) {
+      return res.status(404).json({ success: false, message: 'Trámite no encontrado.' });
+    }
+
+    // Validar que el DNI coincida
+    if (tramite.dni !== dni) {
+      return res.status(403).json({ success: false, message: 'El DNI no coincide con el solicitante del trámite.' });
+    }
+
+    // Retornar información segura y pública
+    return res.status(200).json({
+      success: true,
+      data: {
+        id: tramite.id,
+        asunto: tramite.asunto,
+        prioridad: tramite.prioridad,
+        estado: tramite.estado,
+        solicitante: tramite.solicitante,
+        fecha_creacion: tramite.fecha_creacion,
+        fecha_modificacion: tramite.fecha_modificacion,
+        asignado_nombre: tramite.asignado_nombre || 'Sin asignar'
+      }
+    });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ success: false, message: 'Error interno en el servidor.' });
+  }
 };
+
+module.exports = { createTramite, getTramites, updateTramite, getPublicTramite };
+
+

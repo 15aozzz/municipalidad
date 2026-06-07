@@ -11,6 +11,7 @@ const TramiteDetailModal = ({ tramite, onClose }) => {
   const [loadingStaff, setLoadingStaff] = useState(true);
   const [selectedEstado, setSelectedEstado] = useState(tramite.estado);
   const [selectedAsignado, setSelectedAsignado] = useState(tramite.asignado_a || '');
+  const [observaciones, setObservaciones] = useState('');
   const [isSaving, setIsSaving] = useState(false);
 
   const { editTramite } = useContext(TramitesContext);
@@ -42,6 +43,7 @@ const TramiteDetailModal = ({ tramite, onClose }) => {
     const updateData = {};
     if (selectedEstado !== tramite.estado) updateData.estado = selectedEstado;
     if (selectedAsignado && selectedAsignado !== tramite.asignado_a) updateData.asignado_a = Number(selectedAsignado);
+    if (observaciones.trim()) updateData.observaciones = observaciones.trim();
 
     if (Object.keys(updateData).length === 0) {
       onClose();
@@ -107,10 +109,22 @@ const TramiteDetailModal = ({ tramite, onClose }) => {
             )}
           </div>
 
+          <div className="form-group" style={{ marginTop: '1rem' }}>
+            <label>Observaciones / Comentario de derivación (Opcional)</label>
+            <textarea 
+              className="form-control" 
+              style={{ minHeight: '80px', resize: 'vertical', fontFamily: 'inherit', padding: '0.5rem' }}
+              value={observaciones} 
+              onChange={(e) => setObservaciones(e.target.value)}
+              placeholder="Ej. Requisitos incompletos / Trámite derivado al área legal."
+              disabled={isSaving}
+            />
+          </div>
+
           <button 
             className="btn-submit" 
             onClick={handleSave} 
-            disabled={isSaving || (selectedEstado === tramite.estado && selectedAsignado == (tramite.asignado_a || ''))}
+            disabled={isSaving || (selectedEstado === tramite.estado && selectedAsignado == (tramite.asignado_a || '') && !observaciones.trim())}
             style={{ marginTop: '2rem' }}
           >
             {isSaving ? <LoadingSpinner size={16} color="#fff" /> : <Check size={16} />} 

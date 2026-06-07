@@ -2,6 +2,10 @@ export const isValidDni = (dni) => {
   return /^\d{8}$/.test(dni);
 };
 
+export const isValidEmail = (email) => {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+};
+
 export const isValidAsunto = (asunto) => {
   return typeof asunto === 'string' && asunto.trim().length >= 5;
 };

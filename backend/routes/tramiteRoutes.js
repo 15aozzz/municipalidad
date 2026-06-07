@@ -3,6 +3,9 @@ const router = express.Router();
 const tramiteController = require('../controllers/tramiteController');
 const { authenticateToken, requireRole } = require('../middleware/authMiddleware');
 
+// Ruta pública para consultar estado de trámite (no requiere JWT)
+router.get('/publico/:id/:dni', tramiteController.getPublicTramite);
+
 // Todas las rutas de trámites requieren autenticación con JWT
 router.use(authenticateToken);
 

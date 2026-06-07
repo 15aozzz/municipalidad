@@ -1,0 +1,501 @@
+texto,prioridad,area_destino
+"Solicito inscripcion de nacimiento adjuntando documentos completos, caso numero 1, agradecere la atencion",Alta,Registro Civil
+"Requiero matrimonio civil con la documentacion requerida, caso numero 2, adjunto informacion adicional",Media,Registro Civil
+"Deseo tramitar divorcio rapido para uso personal, caso numero 3, agradezco su apoyo",Media,Registro Civil
+"Necesito gestionar copias de actas a fin de cumplir la normativa, caso numero 4, quedo atento a respuesta",Baja,Registro Civil
+"Presento expediente para acta de defuncion para continuar otro procedimiento, caso numero 5, se incluyen sustentos",Media,Registro Civil
+"Vengo a solicitar licencia de funcionamiento segun orientacion recibida, caso numero 6, requiero pronta atencion",Media,Rentas y Comercializacion
+"Me acerco para pedir impuesto predial para una gestion bancaria, caso numero 7, solicito evaluacion",Baja,Rentas y Comercializacion
+"Quisiera obtener autoavaluo porque debo regularizar una situacion pendiente, caso numero 8, presento todos los requisitos",Baja,Rentas y Comercializacion
+"Estoy iniciando arbitrios antes de la fecha indicada, caso numero 9, por favor revisar el caso",Baja,Rentas y Comercializacion
+"Corresponde gestionar fraccionamiento de deudas por motivos laborales, caso numero 10, espero la revision correspondiente",Media,Rentas y Comercializacion
+"Solicito autorizacion de anuncios adjuntando documentos completos, caso numero 11, agradecere la atencion",Media,Rentas y Comercializacion
+"Requiero licencia de edificacion modalidad A con la documentacion requerida, caso numero 12, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar licencia de edificacion modalidad B para uso personal, caso numero 13, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar licencia de edificacion modalidad C a fin de cumplir la normativa, caso numero 14, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para licencia de edificacion modalidad D para continuar otro procedimiento, caso numero 15, se incluyen sustentos",Alta,Desarrollo Urbano y Obras
+"Vengo a solicitar constancia de posesion segun orientacion recibida, caso numero 16, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir certificado de parametros urbanisticos para una gestion bancaria, caso numero 17, solicito evaluacion",Baja,Desarrollo Urbano y Obras
+"Quisiera obtener autorizacion de rotura de vias porque debo regularizar una situacion pendiente, caso numero 18, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando ITSE basica antes de la fecha indicada, caso numero 19, por favor revisar el caso",Media,Gestion de Riesgos
+"Corresponde gestionar ITSE de detalle por motivos laborales, caso numero 20, espero la revision correspondiente",Alta,Gestion de Riesgos
+"Solicito acceso a informacion publica adjuntando documentos completos, caso numero 21, agradecere la atencion",Baja,Secretaria General
+"Requiero recurso de apelacion con la documentacion requerida, caso numero 22, adjunto informacion adicional",Alta,Secretaria General
+"Deseo tramitar recurso de reconsideracion para uso personal, caso numero 23, agradezco su apoyo",Media,Secretaria General
+"Necesito gestionar inscripcion de nacimiento a fin de cumplir la normativa, caso numero 24, quedo atento a respuesta",Alta,Registro Civil
+"Presento expediente para matrimonio civil para continuar otro procedimiento, caso numero 25, se incluyen sustentos",Media,Registro Civil
+"Vengo a solicitar divorcio rapido segun orientacion recibida, caso numero 26, requiero pronta atencion",Media,Registro Civil
+"Me acerco para pedir copias de actas para una gestion bancaria, caso numero 27, solicito evaluacion",Baja,Registro Civil
+"Quisiera obtener acta de defuncion porque debo regularizar una situacion pendiente, caso numero 28, presento todos los requisitos",Media,Registro Civil
+"Estoy iniciando licencia de funcionamiento antes de la fecha indicada, caso numero 29, por favor revisar el caso",Media,Rentas y Comercializacion
+"Corresponde gestionar impuesto predial por motivos laborales, caso numero 30, espero la revision correspondiente",Baja,Rentas y Comercializacion
+"Solicito autoavaluo adjuntando documentos completos, caso numero 31, agradecere la atencion",Baja,Rentas y Comercializacion
+"Requiero arbitrios con la documentacion requerida, caso numero 32, adjunto informacion adicional",Baja,Rentas y Comercializacion
+"Deseo tramitar fraccionamiento de deudas para uso personal, caso numero 33, agradezco su apoyo",Media,Rentas y Comercializacion
+"Necesito gestionar autorizacion de anuncios a fin de cumplir la normativa, caso numero 34, quedo atento a respuesta",Media,Rentas y Comercializacion
+"Presento expediente para licencia de edificacion modalidad A para continuar otro procedimiento, caso numero 35, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar licencia de edificacion modalidad B segun orientacion recibida, caso numero 36, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir licencia de edificacion modalidad C para una gestion bancaria, caso numero 37, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener licencia de edificacion modalidad D porque debo regularizar una situacion pendiente, caso numero 38, presento todos los requisitos",Alta,Desarrollo Urbano y Obras
+"Estoy iniciando constancia de posesion antes de la fecha indicada, caso numero 39, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar certificado de parametros urbanisticos por motivos laborales, caso numero 40, espero la revision correspondiente",Baja,Desarrollo Urbano y Obras
+"Solicito autorizacion de rotura de vias adjuntando documentos completos, caso numero 41, agradecere la atencion",Media,Desarrollo Urbano y Obras
+"Requiero ITSE basica con la documentacion requerida, caso numero 42, adjunto informacion adicional",Media,Gestion de Riesgos
+"Deseo tramitar ITSE de detalle para uso personal, caso numero 43, agradezco su apoyo",Alta,Gestion de Riesgos
+"Necesito gestionar acceso a informacion publica a fin de cumplir la normativa, caso numero 44, quedo atento a respuesta",Baja,Secretaria General
+"Presento expediente para recurso de apelacion para continuar otro procedimiento, caso numero 45, se incluyen sustentos",Alta,Secretaria General
+"Vengo a solicitar recurso de reconsideracion segun orientacion recibida, caso numero 46, requiero pronta atencion",Media,Secretaria General
+"Me acerco para pedir inscripcion de nacimiento para una gestion bancaria, caso numero 47, solicito evaluacion",Alta,Registro Civil
+"Quisiera obtener matrimonio civil porque debo regularizar una situacion pendiente, caso numero 48, presento todos los requisitos",Media,Registro Civil
+"Estoy iniciando divorcio rapido antes de la fecha indicada, caso numero 49, por favor revisar el caso",Media,Registro Civil
+"Corresponde gestionar copias de actas por motivos laborales, caso numero 50, espero la revision correspondiente",Baja,Registro Civil
+"Solicito acta de defuncion adjuntando documentos completos, caso numero 51, agradecere la atencion",Media,Registro Civil
+"Requiero licencia de funcionamiento con la documentacion requerida, caso numero 52, adjunto informacion adicional",Media,Rentas y Comercializacion
+"Deseo tramitar impuesto predial para uso personal, caso numero 53, agradezco su apoyo",Baja,Rentas y Comercializacion
+"Necesito gestionar autoavaluo a fin de cumplir la normativa, caso numero 54, quedo atento a respuesta",Baja,Rentas y Comercializacion
+"Presento expediente para arbitrios para continuar otro procedimiento, caso numero 55, se incluyen sustentos",Baja,Rentas y Comercializacion
+"Vengo a solicitar fraccionamiento de deudas segun orientacion recibida, caso numero 56, requiero pronta atencion",Media,Rentas y Comercializacion
+"Me acerco para pedir autorizacion de anuncios para una gestion bancaria, caso numero 57, solicito evaluacion",Media,Rentas y Comercializacion
+"Quisiera obtener licencia de edificacion modalidad A porque debo regularizar una situacion pendiente, caso numero 58, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando licencia de edificacion modalidad B antes de la fecha indicada, caso numero 59, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar licencia de edificacion modalidad C por motivos laborales, caso numero 60, espero la revision correspondiente",Media,Desarrollo Urbano y Obras
+"Solicito licencia de edificacion modalidad D adjuntando documentos completos, caso numero 61, agradecere la atencion",Alta,Desarrollo Urbano y Obras
+"Requiero constancia de posesion con la documentacion requerida, caso numero 62, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar certificado de parametros urbanisticos para uso personal, caso numero 63, agradezco su apoyo",Baja,Desarrollo Urbano y Obras
+"Necesito gestionar autorizacion de rotura de vias a fin de cumplir la normativa, caso numero 64, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para ITSE basica para continuar otro procedimiento, caso numero 65, se incluyen sustentos",Media,Gestion de Riesgos
+"Vengo a solicitar ITSE de detalle segun orientacion recibida, caso numero 66, requiero pronta atencion",Alta,Gestion de Riesgos
+"Me acerco para pedir acceso a informacion publica para una gestion bancaria, caso numero 67, solicito evaluacion",Baja,Secretaria General
+"Quisiera obtener recurso de apelacion porque debo regularizar una situacion pendiente, caso numero 68, presento todos los requisitos",Alta,Secretaria General
+"Estoy iniciando recurso de reconsideracion antes de la fecha indicada, caso numero 69, por favor revisar el caso",Media,Secretaria General
+"Corresponde gestionar inscripcion de nacimiento por motivos laborales, caso numero 70, espero la revision correspondiente",Alta,Registro Civil
+"Solicito matrimonio civil adjuntando documentos completos, caso numero 71, agradecere la atencion",Media,Registro Civil
+"Requiero divorcio rapido con la documentacion requerida, caso numero 72, adjunto informacion adicional",Media,Registro Civil
+"Deseo tramitar copias de actas para uso personal, caso numero 73, agradezco su apoyo",Baja,Registro Civil
+"Necesito gestionar acta de defuncion a fin de cumplir la normativa, caso numero 74, quedo atento a respuesta",Media,Registro Civil
+"Presento expediente para licencia de funcionamiento para continuar otro procedimiento, caso numero 75, se incluyen sustentos",Media,Rentas y Comercializacion
+"Vengo a solicitar impuesto predial segun orientacion recibida, caso numero 76, requiero pronta atencion",Baja,Rentas y Comercializacion
+"Me acerco para pedir autoavaluo para una gestion bancaria, caso numero 77, solicito evaluacion",Baja,Rentas y Comercializacion
+"Quisiera obtener arbitrios porque debo regularizar una situacion pendiente, caso numero 78, presento todos los requisitos",Baja,Rentas y Comercializacion
+"Estoy iniciando fraccionamiento de deudas antes de la fecha indicada, caso numero 79, por favor revisar el caso",Media,Rentas y Comercializacion
+"Corresponde gestionar autorizacion de anuncios por motivos laborales, caso numero 80, espero la revision correspondiente",Media,Rentas y Comercializacion
+"Solicito licencia de edificacion modalidad A adjuntando documentos completos, caso numero 81, agradecere la atencion",Media,Desarrollo Urbano y Obras
+"Requiero licencia de edificacion modalidad B con la documentacion requerida, caso numero 82, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar licencia de edificacion modalidad C para uso personal, caso numero 83, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar licencia de edificacion modalidad D a fin de cumplir la normativa, caso numero 84, quedo atento a respuesta",Alta,Desarrollo Urbano y Obras
+"Presento expediente para constancia de posesion para continuar otro procedimiento, caso numero 85, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar certificado de parametros urbanisticos segun orientacion recibida, caso numero 86, requiero pronta atencion",Baja,Desarrollo Urbano y Obras
+"Me acerco para pedir autorizacion de rotura de vias para una gestion bancaria, caso numero 87, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener ITSE basica porque debo regularizar una situacion pendiente, caso numero 88, presento todos los requisitos",Media,Gestion de Riesgos
+"Estoy iniciando ITSE de detalle antes de la fecha indicada, caso numero 89, por favor revisar el caso",Alta,Gestion de Riesgos
+"Corresponde gestionar acceso a informacion publica por motivos laborales, caso numero 90, espero la revision correspondiente",Baja,Secretaria General
+"Solicito recurso de apelacion adjuntando documentos completos, caso numero 91, agradecere la atencion",Alta,Secretaria General
+"Requiero recurso de reconsideracion con la documentacion requerida, caso numero 92, adjunto informacion adicional",Media,Secretaria General
+"Deseo tramitar inscripcion de nacimiento para uso personal, caso numero 93, agradezco su apoyo",Alta,Registro Civil
+"Necesito gestionar matrimonio civil a fin de cumplir la normativa, caso numero 94, quedo atento a respuesta",Media,Registro Civil
+"Presento expediente para divorcio rapido para continuar otro procedimiento, caso numero 95, se incluyen sustentos",Media,Registro Civil
+"Vengo a solicitar copias de actas segun orientacion recibida, caso numero 96, requiero pronta atencion",Baja,Registro Civil
+"Me acerco para pedir acta de defuncion para una gestion bancaria, caso numero 97, solicito evaluacion",Media,Registro Civil
+"Quisiera obtener licencia de funcionamiento porque debo regularizar una situacion pendiente, caso numero 98, presento todos los requisitos",Media,Rentas y Comercializacion
+"Estoy iniciando impuesto predial antes de la fecha indicada, caso numero 99, por favor revisar el caso",Baja,Rentas y Comercializacion
+"Corresponde gestionar autoavaluo por motivos laborales, caso numero 100, espero la revision correspondiente",Baja,Rentas y Comercializacion
+"Solicito arbitrios adjuntando documentos completos, caso numero 101, agradecere la atencion",Baja,Rentas y Comercializacion
+"Requiero fraccionamiento de deudas con la documentacion requerida, caso numero 102, adjunto informacion adicional",Media,Rentas y Comercializacion
+"Deseo tramitar autorizacion de anuncios para uso personal, caso numero 103, agradezco su apoyo",Media,Rentas y Comercializacion
+"Necesito gestionar licencia de edificacion modalidad A a fin de cumplir la normativa, caso numero 104, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para licencia de edificacion modalidad B para continuar otro procedimiento, caso numero 105, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar licencia de edificacion modalidad C segun orientacion recibida, caso numero 106, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir licencia de edificacion modalidad D para una gestion bancaria, caso numero 107, solicito evaluacion",Alta,Desarrollo Urbano y Obras
+"Quisiera obtener constancia de posesion porque debo regularizar una situacion pendiente, caso numero 108, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando certificado de parametros urbanisticos antes de la fecha indicada, caso numero 109, por favor revisar el caso",Baja,Desarrollo Urbano y Obras
+"Corresponde gestionar autorizacion de rotura de vias por motivos laborales, caso numero 110, espero la revision correspondiente",Media,Desarrollo Urbano y Obras
+"Solicito ITSE basica adjuntando documentos completos, caso numero 111, agradecere la atencion",Media,Gestion de Riesgos
+"Requiero ITSE de detalle con la documentacion requerida, caso numero 112, adjunto informacion adicional",Alta,Gestion de Riesgos
+"Deseo tramitar acceso a informacion publica para uso personal, caso numero 113, agradezco su apoyo",Baja,Secretaria General
+"Necesito gestionar recurso de apelacion a fin de cumplir la normativa, caso numero 114, quedo atento a respuesta",Alta,Secretaria General
+"Presento expediente para recurso de reconsideracion para continuar otro procedimiento, caso numero 115, se incluyen sustentos",Media,Secretaria General
+"Vengo a solicitar inscripcion de nacimiento segun orientacion recibida, caso numero 116, requiero pronta atencion",Alta,Registro Civil
+"Me acerco para pedir matrimonio civil para una gestion bancaria, caso numero 117, solicito evaluacion",Media,Registro Civil
+"Quisiera obtener divorcio rapido porque debo regularizar una situacion pendiente, caso numero 118, presento todos los requisitos",Media,Registro Civil
+"Estoy iniciando copias de actas antes de la fecha indicada, caso numero 119, por favor revisar el caso",Baja,Registro Civil
+"Corresponde gestionar acta de defuncion por motivos laborales, caso numero 120, espero la revision correspondiente",Media,Registro Civil
+"Solicito licencia de funcionamiento adjuntando documentos completos, caso numero 121, agradecere la atencion",Media,Rentas y Comercializacion
+"Requiero impuesto predial con la documentacion requerida, caso numero 122, adjunto informacion adicional",Baja,Rentas y Comercializacion
+"Deseo tramitar autoavaluo para uso personal, caso numero 123, agradezco su apoyo",Baja,Rentas y Comercializacion
+"Necesito gestionar arbitrios a fin de cumplir la normativa, caso numero 124, quedo atento a respuesta",Baja,Rentas y Comercializacion
+"Presento expediente para fraccionamiento de deudas para continuar otro procedimiento, caso numero 125, se incluyen sustentos",Media,Rentas y Comercializacion
+"Vengo a solicitar autorizacion de anuncios segun orientacion recibida, caso numero 126, requiero pronta atencion",Media,Rentas y Comercializacion
+"Me acerco para pedir licencia de edificacion modalidad A para una gestion bancaria, caso numero 127, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener licencia de edificacion modalidad B porque debo regularizar una situacion pendiente, caso numero 128, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando licencia de edificacion modalidad C antes de la fecha indicada, caso numero 129, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar licencia de edificacion modalidad D por motivos laborales, caso numero 130, espero la revision correspondiente",Alta,Desarrollo Urbano y Obras
+"Solicito constancia de posesion adjuntando documentos completos, caso numero 131, agradecere la atencion",Media,Desarrollo Urbano y Obras
+"Requiero certificado de parametros urbanisticos con la documentacion requerida, caso numero 132, adjunto informacion adicional",Baja,Desarrollo Urbano y Obras
+"Deseo tramitar autorizacion de rotura de vias para uso personal, caso numero 133, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar ITSE basica a fin de cumplir la normativa, caso numero 134, quedo atento a respuesta",Media,Gestion de Riesgos
+"Presento expediente para ITSE de detalle para continuar otro procedimiento, caso numero 135, se incluyen sustentos",Alta,Gestion de Riesgos
+"Vengo a solicitar acceso a informacion publica segun orientacion recibida, caso numero 136, requiero pronta atencion",Baja,Secretaria General
+"Me acerco para pedir recurso de apelacion para una gestion bancaria, caso numero 137, solicito evaluacion",Alta,Secretaria General
+"Quisiera obtener recurso de reconsideracion porque debo regularizar una situacion pendiente, caso numero 138, presento todos los requisitos",Media,Secretaria General
+"Estoy iniciando inscripcion de nacimiento antes de la fecha indicada, caso numero 139, por favor revisar el caso",Alta,Registro Civil
+"Corresponde gestionar matrimonio civil por motivos laborales, caso numero 140, espero la revision correspondiente",Media,Registro Civil
+"Solicito divorcio rapido adjuntando documentos completos, caso numero 141, agradecere la atencion",Media,Registro Civil
+"Requiero copias de actas con la documentacion requerida, caso numero 142, adjunto informacion adicional",Baja,Registro Civil
+"Deseo tramitar acta de defuncion para uso personal, caso numero 143, agradezco su apoyo",Media,Registro Civil
+"Necesito gestionar licencia de funcionamiento a fin de cumplir la normativa, caso numero 144, quedo atento a respuesta",Media,Rentas y Comercializacion
+"Presento expediente para impuesto predial para continuar otro procedimiento, caso numero 145, se incluyen sustentos",Baja,Rentas y Comercializacion
+"Vengo a solicitar autoavaluo segun orientacion recibida, caso numero 146, requiero pronta atencion",Baja,Rentas y Comercializacion
+"Me acerco para pedir arbitrios para una gestion bancaria, caso numero 147, solicito evaluacion",Baja,Rentas y Comercializacion
+"Quisiera obtener fraccionamiento de deudas porque debo regularizar una situacion pendiente, caso numero 148, presento todos los requisitos",Media,Rentas y Comercializacion
+"Estoy iniciando autorizacion de anuncios antes de la fecha indicada, caso numero 149, por favor revisar el caso",Media,Rentas y Comercializacion
+"Corresponde gestionar licencia de edificacion modalidad A por motivos laborales, caso numero 150, espero la revision correspondiente",Media,Desarrollo Urbano y Obras
+"Solicito licencia de edificacion modalidad B adjuntando documentos completos, caso numero 151, agradecere la atencion",Media,Desarrollo Urbano y Obras
+"Requiero licencia de edificacion modalidad C con la documentacion requerida, caso numero 152, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar licencia de edificacion modalidad D para uso personal, caso numero 153, agradezco su apoyo",Alta,Desarrollo Urbano y Obras
+"Necesito gestionar constancia de posesion a fin de cumplir la normativa, caso numero 154, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para certificado de parametros urbanisticos para continuar otro procedimiento, caso numero 155, se incluyen sustentos",Baja,Desarrollo Urbano y Obras
+"Vengo a solicitar autorizacion de rotura de vias segun orientacion recibida, caso numero 156, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir ITSE basica para una gestion bancaria, caso numero 157, solicito evaluacion",Media,Gestion de Riesgos
+"Quisiera obtener ITSE de detalle porque debo regularizar una situacion pendiente, caso numero 158, presento todos los requisitos",Alta,Gestion de Riesgos
+"Estoy iniciando acceso a informacion publica antes de la fecha indicada, caso numero 159, por favor revisar el caso",Baja,Secretaria General
+"Corresponde gestionar recurso de apelacion por motivos laborales, caso numero 160, espero la revision correspondiente",Alta,Secretaria General
+"Solicito recurso de reconsideracion adjuntando documentos completos, caso numero 161, agradecere la atencion",Media,Secretaria General
+"Requiero inscripcion de nacimiento con la documentacion requerida, caso numero 162, adjunto informacion adicional",Alta,Registro Civil
+"Deseo tramitar matrimonio civil para uso personal, caso numero 163, agradezco su apoyo",Media,Registro Civil
+"Necesito gestionar divorcio rapido a fin de cumplir la normativa, caso numero 164, quedo atento a respuesta",Media,Registro Civil
+"Presento expediente para copias de actas para continuar otro procedimiento, caso numero 165, se incluyen sustentos",Baja,Registro Civil
+"Vengo a solicitar acta de defuncion segun orientacion recibida, caso numero 166, requiero pronta atencion",Media,Registro Civil
+"Me acerco para pedir licencia de funcionamiento para una gestion bancaria, caso numero 167, solicito evaluacion",Media,Rentas y Comercializacion
+"Quisiera obtener impuesto predial porque debo regularizar una situacion pendiente, caso numero 168, presento todos los requisitos",Baja,Rentas y Comercializacion
+"Estoy iniciando autoavaluo antes de la fecha indicada, caso numero 169, por favor revisar el caso",Baja,Rentas y Comercializacion
+"Corresponde gestionar arbitrios por motivos laborales, caso numero 170, espero la revision correspondiente",Baja,Rentas y Comercializacion
+"Solicito fraccionamiento de deudas adjuntando documentos completos, caso numero 171, agradecere la atencion",Media,Rentas y Comercializacion
+"Requiero autorizacion de anuncios con la documentacion requerida, caso numero 172, adjunto informacion adicional",Media,Rentas y Comercializacion
+"Deseo tramitar licencia de edificacion modalidad A para uso personal, caso numero 173, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar licencia de edificacion modalidad B a fin de cumplir la normativa, caso numero 174, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para licencia de edificacion modalidad C para continuar otro procedimiento, caso numero 175, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar licencia de edificacion modalidad D segun orientacion recibida, caso numero 176, requiero pronta atencion",Alta,Desarrollo Urbano y Obras
+"Me acerco para pedir constancia de posesion para una gestion bancaria, caso numero 177, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener certificado de parametros urbanisticos porque debo regularizar una situacion pendiente, caso numero 178, presento todos los requisitos",Baja,Desarrollo Urbano y Obras
+"Estoy iniciando autorizacion de rotura de vias antes de la fecha indicada, caso numero 179, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar ITSE basica por motivos laborales, caso numero 180, espero la revision correspondiente",Media,Gestion de Riesgos
+"Solicito ITSE de detalle adjuntando documentos completos, caso numero 181, agradecere la atencion",Alta,Gestion de Riesgos
+"Requiero acceso a informacion publica con la documentacion requerida, caso numero 182, adjunto informacion adicional",Baja,Secretaria General
+"Deseo tramitar recurso de apelacion para uso personal, caso numero 183, agradezco su apoyo",Alta,Secretaria General
+"Necesito gestionar recurso de reconsideracion a fin de cumplir la normativa, caso numero 184, quedo atento a respuesta",Media,Secretaria General
+"Presento expediente para inscripcion de nacimiento para continuar otro procedimiento, caso numero 185, se incluyen sustentos",Alta,Registro Civil
+"Vengo a solicitar matrimonio civil segun orientacion recibida, caso numero 186, requiero pronta atencion",Media,Registro Civil
+"Me acerco para pedir divorcio rapido para una gestion bancaria, caso numero 187, solicito evaluacion",Media,Registro Civil
+"Quisiera obtener copias de actas porque debo regularizar una situacion pendiente, caso numero 188, presento todos los requisitos",Baja,Registro Civil
+"Estoy iniciando acta de defuncion antes de la fecha indicada, caso numero 189, por favor revisar el caso",Media,Registro Civil
+"Corresponde gestionar licencia de funcionamiento por motivos laborales, caso numero 190, espero la revision correspondiente",Media,Rentas y Comercializacion
+"Solicito impuesto predial adjuntando documentos completos, caso numero 191, agradecere la atencion",Baja,Rentas y Comercializacion
+"Requiero autoavaluo con la documentacion requerida, caso numero 192, adjunto informacion adicional",Baja,Rentas y Comercializacion
+"Deseo tramitar arbitrios para uso personal, caso numero 193, agradezco su apoyo",Baja,Rentas y Comercializacion
+"Necesito gestionar fraccionamiento de deudas a fin de cumplir la normativa, caso numero 194, quedo atento a respuesta",Media,Rentas y Comercializacion
+"Presento expediente para autorizacion de anuncios para continuar otro procedimiento, caso numero 195, se incluyen sustentos",Media,Rentas y Comercializacion
+"Vengo a solicitar licencia de edificacion modalidad A segun orientacion recibida, caso numero 196, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir licencia de edificacion modalidad B para una gestion bancaria, caso numero 197, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener licencia de edificacion modalidad C porque debo regularizar una situacion pendiente, caso numero 198, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando licencia de edificacion modalidad D antes de la fecha indicada, caso numero 199, por favor revisar el caso",Alta,Desarrollo Urbano y Obras
+"Corresponde gestionar constancia de posesion por motivos laborales, caso numero 200, espero la revision correspondiente",Media,Desarrollo Urbano y Obras
+"Solicito certificado de parametros urbanisticos adjuntando documentos completos, caso numero 201, agradecere la atencion",Baja,Desarrollo Urbano y Obras
+"Requiero autorizacion de rotura de vias con la documentacion requerida, caso numero 202, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar ITSE basica para uso personal, caso numero 203, agradezco su apoyo",Media,Gestion de Riesgos
+"Necesito gestionar ITSE de detalle a fin de cumplir la normativa, caso numero 204, quedo atento a respuesta",Alta,Gestion de Riesgos
+"Presento expediente para acceso a informacion publica para continuar otro procedimiento, caso numero 205, se incluyen sustentos",Baja,Secretaria General
+"Vengo a solicitar recurso de apelacion segun orientacion recibida, caso numero 206, requiero pronta atencion",Alta,Secretaria General
+"Me acerco para pedir recurso de reconsideracion para una gestion bancaria, caso numero 207, solicito evaluacion",Media,Secretaria General
+"Quisiera obtener inscripcion de nacimiento porque debo regularizar una situacion pendiente, caso numero 208, presento todos los requisitos",Alta,Registro Civil
+"Estoy iniciando matrimonio civil antes de la fecha indicada, caso numero 209, por favor revisar el caso",Media,Registro Civil
+"Corresponde gestionar divorcio rapido por motivos laborales, caso numero 210, espero la revision correspondiente",Media,Registro Civil
+"Solicito copias de actas adjuntando documentos completos, caso numero 211, agradecere la atencion",Baja,Registro Civil
+"Requiero acta de defuncion con la documentacion requerida, caso numero 212, adjunto informacion adicional",Media,Registro Civil
+"Deseo tramitar licencia de funcionamiento para uso personal, caso numero 213, agradezco su apoyo",Media,Rentas y Comercializacion
+"Necesito gestionar impuesto predial a fin de cumplir la normativa, caso numero 214, quedo atento a respuesta",Baja,Rentas y Comercializacion
+"Presento expediente para autoavaluo para continuar otro procedimiento, caso numero 215, se incluyen sustentos",Baja,Rentas y Comercializacion
+"Vengo a solicitar arbitrios segun orientacion recibida, caso numero 216, requiero pronta atencion",Baja,Rentas y Comercializacion
+"Me acerco para pedir fraccionamiento de deudas para una gestion bancaria, caso numero 217, solicito evaluacion",Media,Rentas y Comercializacion
+"Quisiera obtener autorizacion de anuncios porque debo regularizar una situacion pendiente, caso numero 218, presento todos los requisitos",Media,Rentas y Comercializacion
+"Estoy iniciando licencia de edificacion modalidad A antes de la fecha indicada, caso numero 219, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar licencia de edificacion modalidad B por motivos laborales, caso numero 220, espero la revision correspondiente",Media,Desarrollo Urbano y Obras
+"Solicito licencia de edificacion modalidad C adjuntando documentos completos, caso numero 221, agradecere la atencion",Media,Desarrollo Urbano y Obras
+"Requiero licencia de edificacion modalidad D con la documentacion requerida, caso numero 222, adjunto informacion adicional",Alta,Desarrollo Urbano y Obras
+"Deseo tramitar constancia de posesion para uso personal, caso numero 223, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar certificado de parametros urbanisticos a fin de cumplir la normativa, caso numero 224, quedo atento a respuesta",Baja,Desarrollo Urbano y Obras
+"Presento expediente para autorizacion de rotura de vias para continuar otro procedimiento, caso numero 225, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar ITSE basica segun orientacion recibida, caso numero 226, requiero pronta atencion",Media,Gestion de Riesgos
+"Me acerco para pedir ITSE de detalle para una gestion bancaria, caso numero 227, solicito evaluacion",Alta,Gestion de Riesgos
+"Quisiera obtener acceso a informacion publica porque debo regularizar una situacion pendiente, caso numero 228, presento todos los requisitos",Baja,Secretaria General
+"Estoy iniciando recurso de apelacion antes de la fecha indicada, caso numero 229, por favor revisar el caso",Alta,Secretaria General
+"Corresponde gestionar recurso de reconsideracion por motivos laborales, caso numero 230, espero la revision correspondiente",Media,Secretaria General
+"Solicito inscripcion de nacimiento adjuntando documentos completos, caso numero 231, agradecere la atencion",Alta,Registro Civil
+"Requiero matrimonio civil con la documentacion requerida, caso numero 232, adjunto informacion adicional",Media,Registro Civil
+"Deseo tramitar divorcio rapido para uso personal, caso numero 233, agradezco su apoyo",Media,Registro Civil
+"Necesito gestionar copias de actas a fin de cumplir la normativa, caso numero 234, quedo atento a respuesta",Baja,Registro Civil
+"Presento expediente para acta de defuncion para continuar otro procedimiento, caso numero 235, se incluyen sustentos",Media,Registro Civil
+"Vengo a solicitar licencia de funcionamiento segun orientacion recibida, caso numero 236, requiero pronta atencion",Media,Rentas y Comercializacion
+"Me acerco para pedir impuesto predial para una gestion bancaria, caso numero 237, solicito evaluacion",Baja,Rentas y Comercializacion
+"Quisiera obtener autoavaluo porque debo regularizar una situacion pendiente, caso numero 238, presento todos los requisitos",Baja,Rentas y Comercializacion
+"Estoy iniciando arbitrios antes de la fecha indicada, caso numero 239, por favor revisar el caso",Baja,Rentas y Comercializacion
+"Corresponde gestionar fraccionamiento de deudas por motivos laborales, caso numero 240, espero la revision correspondiente",Media,Rentas y Comercializacion
+"Solicito autorizacion de anuncios adjuntando documentos completos, caso numero 241, agradecere la atencion",Media,Rentas y Comercializacion
+"Requiero licencia de edificacion modalidad A con la documentacion requerida, caso numero 242, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar licencia de edificacion modalidad B para uso personal, caso numero 243, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar licencia de edificacion modalidad C a fin de cumplir la normativa, caso numero 244, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para licencia de edificacion modalidad D para continuar otro procedimiento, caso numero 245, se incluyen sustentos",Alta,Desarrollo Urbano y Obras
+"Vengo a solicitar constancia de posesion segun orientacion recibida, caso numero 246, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir certificado de parametros urbanisticos para una gestion bancaria, caso numero 247, solicito evaluacion",Baja,Desarrollo Urbano y Obras
+"Quisiera obtener autorizacion de rotura de vias porque debo regularizar una situacion pendiente, caso numero 248, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando ITSE basica antes de la fecha indicada, caso numero 249, por favor revisar el caso",Media,Gestion de Riesgos
+"Corresponde gestionar ITSE de detalle por motivos laborales, caso numero 250, espero la revision correspondiente",Alta,Gestion de Riesgos
+"Solicito acceso a informacion publica adjuntando documentos completos, caso numero 251, agradecere la atencion",Baja,Secretaria General
+"Requiero recurso de apelacion con la documentacion requerida, caso numero 252, adjunto informacion adicional",Alta,Secretaria General
+"Deseo tramitar recurso de reconsideracion para uso personal, caso numero 253, agradezco su apoyo",Media,Secretaria General
+"Necesito gestionar inscripcion de nacimiento a fin de cumplir la normativa, caso numero 254, quedo atento a respuesta",Alta,Registro Civil
+"Presento expediente para matrimonio civil para continuar otro procedimiento, caso numero 255, se incluyen sustentos",Media,Registro Civil
+"Vengo a solicitar divorcio rapido segun orientacion recibida, caso numero 256, requiero pronta atencion",Media,Registro Civil
+"Me acerco para pedir copias de actas para una gestion bancaria, caso numero 257, solicito evaluacion",Baja,Registro Civil
+"Quisiera obtener acta de defuncion porque debo regularizar una situacion pendiente, caso numero 258, presento todos los requisitos",Media,Registro Civil
+"Estoy iniciando licencia de funcionamiento antes de la fecha indicada, caso numero 259, por favor revisar el caso",Media,Rentas y Comercializacion
+"Corresponde gestionar impuesto predial por motivos laborales, caso numero 260, espero la revision correspondiente",Baja,Rentas y Comercializacion
+"Solicito autoavaluo adjuntando documentos completos, caso numero 261, agradecere la atencion",Baja,Rentas y Comercializacion
+"Requiero arbitrios con la documentacion requerida, caso numero 262, adjunto informacion adicional",Baja,Rentas y Comercializacion
+"Deseo tramitar fraccionamiento de deudas para uso personal, caso numero 263, agradezco su apoyo",Media,Rentas y Comercializacion
+"Necesito gestionar autorizacion de anuncios a fin de cumplir la normativa, caso numero 264, quedo atento a respuesta",Media,Rentas y Comercializacion
+"Presento expediente para licencia de edificacion modalidad A para continuar otro procedimiento, caso numero 265, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar licencia de edificacion modalidad B segun orientacion recibida, caso numero 266, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir licencia de edificacion modalidad C para una gestion bancaria, caso numero 267, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener licencia de edificacion modalidad D porque debo regularizar una situacion pendiente, caso numero 268, presento todos los requisitos",Alta,Desarrollo Urbano y Obras
+"Estoy iniciando constancia de posesion antes de la fecha indicada, caso numero 269, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar certificado de parametros urbanisticos por motivos laborales, caso numero 270, espero la revision correspondiente",Baja,Desarrollo Urbano y Obras
+"Solicito autorizacion de rotura de vias adjuntando documentos completos, caso numero 271, agradecere la atencion",Media,Desarrollo Urbano y Obras
+"Requiero ITSE basica con la documentacion requerida, caso numero 272, adjunto informacion adicional",Media,Gestion de Riesgos
+"Deseo tramitar ITSE de detalle para uso personal, caso numero 273, agradezco su apoyo",Alta,Gestion de Riesgos
+"Necesito gestionar acceso a informacion publica a fin de cumplir la normativa, caso numero 274, quedo atento a respuesta",Baja,Secretaria General
+"Presento expediente para recurso de apelacion para continuar otro procedimiento, caso numero 275, se incluyen sustentos",Alta,Secretaria General
+"Vengo a solicitar recurso de reconsideracion segun orientacion recibida, caso numero 276, requiero pronta atencion",Media,Secretaria General
+"Me acerco para pedir inscripcion de nacimiento para una gestion bancaria, caso numero 277, solicito evaluacion",Alta,Registro Civil
+"Quisiera obtener matrimonio civil porque debo regularizar una situacion pendiente, caso numero 278, presento todos los requisitos",Media,Registro Civil
+"Estoy iniciando divorcio rapido antes de la fecha indicada, caso numero 279, por favor revisar el caso",Media,Registro Civil
+"Corresponde gestionar copias de actas por motivos laborales, caso numero 280, espero la revision correspondiente",Baja,Registro Civil
+"Solicito acta de defuncion adjuntando documentos completos, caso numero 281, agradecere la atencion",Media,Registro Civil
+"Requiero licencia de funcionamiento con la documentacion requerida, caso numero 282, adjunto informacion adicional",Media,Rentas y Comercializacion
+"Deseo tramitar impuesto predial para uso personal, caso numero 283, agradezco su apoyo",Baja,Rentas y Comercializacion
+"Necesito gestionar autoavaluo a fin de cumplir la normativa, caso numero 284, quedo atento a respuesta",Baja,Rentas y Comercializacion
+"Presento expediente para arbitrios para continuar otro procedimiento, caso numero 285, se incluyen sustentos",Baja,Rentas y Comercializacion
+"Vengo a solicitar fraccionamiento de deudas segun orientacion recibida, caso numero 286, requiero pronta atencion",Media,Rentas y Comercializacion
+"Me acerco para pedir autorizacion de anuncios para una gestion bancaria, caso numero 287, solicito evaluacion",Media,Rentas y Comercializacion
+"Quisiera obtener licencia de edificacion modalidad A porque debo regularizar una situacion pendiente, caso numero 288, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando licencia de edificacion modalidad B antes de la fecha indicada, caso numero 289, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar licencia de edificacion modalidad C por motivos laborales, caso numero 290, espero la revision correspondiente",Media,Desarrollo Urbano y Obras
+"Solicito licencia de edificacion modalidad D adjuntando documentos completos, caso numero 291, agradecere la atencion",Alta,Desarrollo Urbano y Obras
+"Requiero constancia de posesion con la documentacion requerida, caso numero 292, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar certificado de parametros urbanisticos para uso personal, caso numero 293, agradezco su apoyo",Baja,Desarrollo Urbano y Obras
+"Necesito gestionar autorizacion de rotura de vias a fin de cumplir la normativa, caso numero 294, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para ITSE basica para continuar otro procedimiento, caso numero 295, se incluyen sustentos",Media,Gestion de Riesgos
+"Vengo a solicitar ITSE de detalle segun orientacion recibida, caso numero 296, requiero pronta atencion",Alta,Gestion de Riesgos
+"Me acerco para pedir acceso a informacion publica para una gestion bancaria, caso numero 297, solicito evaluacion",Baja,Secretaria General
+"Quisiera obtener recurso de apelacion porque debo regularizar una situacion pendiente, caso numero 298, presento todos los requisitos",Alta,Secretaria General
+"Estoy iniciando recurso de reconsideracion antes de la fecha indicada, caso numero 299, por favor revisar el caso",Media,Secretaria General
+"Corresponde gestionar inscripcion de nacimiento por motivos laborales, caso numero 300, espero la revision correspondiente",Alta,Registro Civil
+"Solicito matrimonio civil adjuntando documentos completos, caso numero 301, agradecere la atencion",Media,Registro Civil
+"Requiero divorcio rapido con la documentacion requerida, caso numero 302, adjunto informacion adicional",Media,Registro Civil
+"Deseo tramitar copias de actas para uso personal, caso numero 303, agradezco su apoyo",Baja,Registro Civil
+"Necesito gestionar acta de defuncion a fin de cumplir la normativa, caso numero 304, quedo atento a respuesta",Media,Registro Civil
+"Presento expediente para licencia de funcionamiento para continuar otro procedimiento, caso numero 305, se incluyen sustentos",Media,Rentas y Comercializacion
+"Vengo a solicitar impuesto predial segun orientacion recibida, caso numero 306, requiero pronta atencion",Baja,Rentas y Comercializacion
+"Me acerco para pedir autoavaluo para una gestion bancaria, caso numero 307, solicito evaluacion",Baja,Rentas y Comercializacion
+"Quisiera obtener arbitrios porque debo regularizar una situacion pendiente, caso numero 308, presento todos los requisitos",Baja,Rentas y Comercializacion
+"Estoy iniciando fraccionamiento de deudas antes de la fecha indicada, caso numero 309, por favor revisar el caso",Media,Rentas y Comercializacion
+"Corresponde gestionar autorizacion de anuncios por motivos laborales, caso numero 310, espero la revision correspondiente",Media,Rentas y Comercializacion
+"Solicito licencia de edificacion modalidad A adjuntando documentos completos, caso numero 311, agradecere la atencion",Media,Desarrollo Urbano y Obras
+"Requiero licencia de edificacion modalidad B con la documentacion requerida, caso numero 312, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar licencia de edificacion modalidad C para uso personal, caso numero 313, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar licencia de edificacion modalidad D a fin de cumplir la normativa, caso numero 314, quedo atento a respuesta",Alta,Desarrollo Urbano y Obras
+"Presento expediente para constancia de posesion para continuar otro procedimiento, caso numero 315, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar certificado de parametros urbanisticos segun orientacion recibida, caso numero 316, requiero pronta atencion",Baja,Desarrollo Urbano y Obras
+"Me acerco para pedir autorizacion de rotura de vias para una gestion bancaria, caso numero 317, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener ITSE basica porque debo regularizar una situacion pendiente, caso numero 318, presento todos los requisitos",Media,Gestion de Riesgos
+"Estoy iniciando ITSE de detalle antes de la fecha indicada, caso numero 319, por favor revisar el caso",Alta,Gestion de Riesgos
+"Corresponde gestionar acceso a informacion publica por motivos laborales, caso numero 320, espero la revision correspondiente",Baja,Secretaria General
+"Solicito recurso de apelacion adjuntando documentos completos, caso numero 321, agradecere la atencion",Alta,Secretaria General
+"Requiero recurso de reconsideracion con la documentacion requerida, caso numero 322, adjunto informacion adicional",Media,Secretaria General
+"Deseo tramitar inscripcion de nacimiento para uso personal, caso numero 323, agradezco su apoyo",Alta,Registro Civil
+"Necesito gestionar matrimonio civil a fin de cumplir la normativa, caso numero 324, quedo atento a respuesta",Media,Registro Civil
+"Presento expediente para divorcio rapido para continuar otro procedimiento, caso numero 325, se incluyen sustentos",Media,Registro Civil
+"Vengo a solicitar copias de actas segun orientacion recibida, caso numero 326, requiero pronta atencion",Baja,Registro Civil
+"Me acerco para pedir acta de defuncion para una gestion bancaria, caso numero 327, solicito evaluacion",Media,Registro Civil
+"Quisiera obtener licencia de funcionamiento porque debo regularizar una situacion pendiente, caso numero 328, presento todos los requisitos",Media,Rentas y Comercializacion
+"Estoy iniciando impuesto predial antes de la fecha indicada, caso numero 329, por favor revisar el caso",Baja,Rentas y Comercializacion
+"Corresponde gestionar autoavaluo por motivos laborales, caso numero 330, espero la revision correspondiente",Baja,Rentas y Comercializacion
+"Solicito arbitrios adjuntando documentos completos, caso numero 331, agradecere la atencion",Baja,Rentas y Comercializacion
+"Requiero fraccionamiento de deudas con la documentacion requerida, caso numero 332, adjunto informacion adicional",Media,Rentas y Comercializacion
+"Deseo tramitar autorizacion de anuncios para uso personal, caso numero 333, agradezco su apoyo",Media,Rentas y Comercializacion
+"Necesito gestionar licencia de edificacion modalidad A a fin de cumplir la normativa, caso numero 334, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para licencia de edificacion modalidad B para continuar otro procedimiento, caso numero 335, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar licencia de edificacion modalidad C segun orientacion recibida, caso numero 336, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir licencia de edificacion modalidad D para una gestion bancaria, caso numero 337, solicito evaluacion",Alta,Desarrollo Urbano y Obras
+"Quisiera obtener constancia de posesion porque debo regularizar una situacion pendiente, caso numero 338, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando certificado de parametros urbanisticos antes de la fecha indicada, caso numero 339, por favor revisar el caso",Baja,Desarrollo Urbano y Obras
+"Corresponde gestionar autorizacion de rotura de vias por motivos laborales, caso numero 340, espero la revision correspondiente",Media,Desarrollo Urbano y Obras
+"Solicito ITSE basica adjuntando documentos completos, caso numero 341, agradecere la atencion",Media,Gestion de Riesgos
+"Requiero ITSE de detalle con la documentacion requerida, caso numero 342, adjunto informacion adicional",Alta,Gestion de Riesgos
+"Deseo tramitar acceso a informacion publica para uso personal, caso numero 343, agradezco su apoyo",Baja,Secretaria General
+"Necesito gestionar recurso de apelacion a fin de cumplir la normativa, caso numero 344, quedo atento a respuesta",Alta,Secretaria General
+"Presento expediente para recurso de reconsideracion para continuar otro procedimiento, caso numero 345, se incluyen sustentos",Media,Secretaria General
+"Vengo a solicitar inscripcion de nacimiento segun orientacion recibida, caso numero 346, requiero pronta atencion",Alta,Registro Civil
+"Me acerco para pedir matrimonio civil para una gestion bancaria, caso numero 347, solicito evaluacion",Media,Registro Civil
+"Quisiera obtener divorcio rapido porque debo regularizar una situacion pendiente, caso numero 348, presento todos los requisitos",Media,Registro Civil
+"Estoy iniciando copias de actas antes de la fecha indicada, caso numero 349, por favor revisar el caso",Baja,Registro Civil
+"Corresponde gestionar acta de defuncion por motivos laborales, caso numero 350, espero la revision correspondiente",Media,Registro Civil
+"Solicito licencia de funcionamiento adjuntando documentos completos, caso numero 351, agradecere la atencion",Media,Rentas y Comercializacion
+"Requiero impuesto predial con la documentacion requerida, caso numero 352, adjunto informacion adicional",Baja,Rentas y Comercializacion
+"Deseo tramitar autoavaluo para uso personal, caso numero 353, agradezco su apoyo",Baja,Rentas y Comercializacion
+"Necesito gestionar arbitrios a fin de cumplir la normativa, caso numero 354, quedo atento a respuesta",Baja,Rentas y Comercializacion
+"Presento expediente para fraccionamiento de deudas para continuar otro procedimiento, caso numero 355, se incluyen sustentos",Media,Rentas y Comercializacion
+"Vengo a solicitar autorizacion de anuncios segun orientacion recibida, caso numero 356, requiero pronta atencion",Media,Rentas y Comercializacion
+"Me acerco para pedir licencia de edificacion modalidad A para una gestion bancaria, caso numero 357, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener licencia de edificacion modalidad B porque debo regularizar una situacion pendiente, caso numero 358, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando licencia de edificacion modalidad C antes de la fecha indicada, caso numero 359, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar licencia de edificacion modalidad D por motivos laborales, caso numero 360, espero la revision correspondiente",Alta,Desarrollo Urbano y Obras
+"Solicito constancia de posesion adjuntando documentos completos, caso numero 361, agradecere la atencion",Media,Desarrollo Urbano y Obras
+"Requiero certificado de parametros urbanisticos con la documentacion requerida, caso numero 362, adjunto informacion adicional",Baja,Desarrollo Urbano y Obras
+"Deseo tramitar autorizacion de rotura de vias para uso personal, caso numero 363, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar ITSE basica a fin de cumplir la normativa, caso numero 364, quedo atento a respuesta",Media,Gestion de Riesgos
+"Presento expediente para ITSE de detalle para continuar otro procedimiento, caso numero 365, se incluyen sustentos",Alta,Gestion de Riesgos
+"Vengo a solicitar acceso a informacion publica segun orientacion recibida, caso numero 366, requiero pronta atencion",Baja,Secretaria General
+"Me acerco para pedir recurso de apelacion para una gestion bancaria, caso numero 367, solicito evaluacion",Alta,Secretaria General
+"Quisiera obtener recurso de reconsideracion porque debo regularizar una situacion pendiente, caso numero 368, presento todos los requisitos",Media,Secretaria General
+"Estoy iniciando inscripcion de nacimiento antes de la fecha indicada, caso numero 369, por favor revisar el caso",Alta,Registro Civil
+"Corresponde gestionar matrimonio civil por motivos laborales, caso numero 370, espero la revision correspondiente",Media,Registro Civil
+"Solicito divorcio rapido adjuntando documentos completos, caso numero 371, agradecere la atencion",Media,Registro Civil
+"Requiero copias de actas con la documentacion requerida, caso numero 372, adjunto informacion adicional",Baja,Registro Civil
+"Deseo tramitar acta de defuncion para uso personal, caso numero 373, agradezco su apoyo",Media,Registro Civil
+"Necesito gestionar licencia de funcionamiento a fin de cumplir la normativa, caso numero 374, quedo atento a respuesta",Media,Rentas y Comercializacion
+"Presento expediente para impuesto predial para continuar otro procedimiento, caso numero 375, se incluyen sustentos",Baja,Rentas y Comercializacion
+"Vengo a solicitar autoavaluo segun orientacion recibida, caso numero 376, requiero pronta atencion",Baja,Rentas y Comercializacion
+"Me acerco para pedir arbitrios para una gestion bancaria, caso numero 377, solicito evaluacion",Baja,Rentas y Comercializacion
+"Quisiera obtener fraccionamiento de deudas porque debo regularizar una situacion pendiente, caso numero 378, presento todos los requisitos",Media,Rentas y Comercializacion
+"Estoy iniciando autorizacion de anuncios antes de la fecha indicada, caso numero 379, por favor revisar el caso",Media,Rentas y Comercializacion
+"Corresponde gestionar licencia de edificacion modalidad A por motivos laborales, caso numero 380, espero la revision correspondiente",Media,Desarrollo Urbano y Obras
+"Solicito licencia de edificacion modalidad B adjuntando documentos completos, caso numero 381, agradecere la atencion",Media,Desarrollo Urbano y Obras
+"Requiero licencia de edificacion modalidad C con la documentacion requerida, caso numero 382, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar licencia de edificacion modalidad D para uso personal, caso numero 383, agradezco su apoyo",Alta,Desarrollo Urbano y Obras
+"Necesito gestionar constancia de posesion a fin de cumplir la normativa, caso numero 384, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para certificado de parametros urbanisticos para continuar otro procedimiento, caso numero 385, se incluyen sustentos",Baja,Desarrollo Urbano y Obras
+"Vengo a solicitar autorizacion de rotura de vias segun orientacion recibida, caso numero 386, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir ITSE basica para una gestion bancaria, caso numero 387, solicito evaluacion",Media,Gestion de Riesgos
+"Quisiera obtener ITSE de detalle porque debo regularizar una situacion pendiente, caso numero 388, presento todos los requisitos",Alta,Gestion de Riesgos
+"Estoy iniciando acceso a informacion publica antes de la fecha indicada, caso numero 389, por favor revisar el caso",Baja,Secretaria General
+"Corresponde gestionar recurso de apelacion por motivos laborales, caso numero 390, espero la revision correspondiente",Alta,Secretaria General
+"Solicito recurso de reconsideracion adjuntando documentos completos, caso numero 391, agradecere la atencion",Media,Secretaria General
+"Requiero inscripcion de nacimiento con la documentacion requerida, caso numero 392, adjunto informacion adicional",Alta,Registro Civil
+"Deseo tramitar matrimonio civil para uso personal, caso numero 393, agradezco su apoyo",Media,Registro Civil
+"Necesito gestionar divorcio rapido a fin de cumplir la normativa, caso numero 394, quedo atento a respuesta",Media,Registro Civil
+"Presento expediente para copias de actas para continuar otro procedimiento, caso numero 395, se incluyen sustentos",Baja,Registro Civil
+"Vengo a solicitar acta de defuncion segun orientacion recibida, caso numero 396, requiero pronta atencion",Media,Registro Civil
+"Me acerco para pedir licencia de funcionamiento para una gestion bancaria, caso numero 397, solicito evaluacion",Media,Rentas y Comercializacion
+"Quisiera obtener impuesto predial porque debo regularizar una situacion pendiente, caso numero 398, presento todos los requisitos",Baja,Rentas y Comercializacion
+"Estoy iniciando autoavaluo antes de la fecha indicada, caso numero 399, por favor revisar el caso",Baja,Rentas y Comercializacion
+"Corresponde gestionar arbitrios por motivos laborales, caso numero 400, espero la revision correspondiente",Baja,Rentas y Comercializacion
+"Solicito fraccionamiento de deudas adjuntando documentos completos, caso numero 401, agradecere la atencion",Media,Rentas y Comercializacion
+"Requiero autorizacion de anuncios con la documentacion requerida, caso numero 402, adjunto informacion adicional",Media,Rentas y Comercializacion
+"Deseo tramitar licencia de edificacion modalidad A para uso personal, caso numero 403, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar licencia de edificacion modalidad B a fin de cumplir la normativa, caso numero 404, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para licencia de edificacion modalidad C para continuar otro procedimiento, caso numero 405, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar licencia de edificacion modalidad D segun orientacion recibida, caso numero 406, requiero pronta atencion",Alta,Desarrollo Urbano y Obras
+"Me acerco para pedir constancia de posesion para una gestion bancaria, caso numero 407, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener certificado de parametros urbanisticos porque debo regularizar una situacion pendiente, caso numero 408, presento todos los requisitos",Baja,Desarrollo Urbano y Obras
+"Estoy iniciando autorizacion de rotura de vias antes de la fecha indicada, caso numero 409, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar ITSE basica por motivos laborales, caso numero 410, espero la revision correspondiente",Media,Gestion de Riesgos
+"Solicito ITSE de detalle adjuntando documentos completos, caso numero 411, agradecere la atencion",Alta,Gestion de Riesgos
+"Requiero acceso a informacion publica con la documentacion requerida, caso numero 412, adjunto informacion adicional",Baja,Secretaria General
+"Deseo tramitar recurso de apelacion para uso personal, caso numero 413, agradezco su apoyo",Alta,Secretaria General
+"Necesito gestionar recurso de reconsideracion a fin de cumplir la normativa, caso numero 414, quedo atento a respuesta",Media,Secretaria General
+"Presento expediente para inscripcion de nacimiento para continuar otro procedimiento, caso numero 415, se incluyen sustentos",Alta,Registro Civil
+"Vengo a solicitar matrimonio civil segun orientacion recibida, caso numero 416, requiero pronta atencion",Media,Registro Civil
+"Me acerco para pedir divorcio rapido para una gestion bancaria, caso numero 417, solicito evaluacion",Media,Registro Civil
+"Quisiera obtener copias de actas porque debo regularizar una situacion pendiente, caso numero 418, presento todos los requisitos",Baja,Registro Civil
+"Estoy iniciando acta de defuncion antes de la fecha indicada, caso numero 419, por favor revisar el caso",Media,Registro Civil
+"Corresponde gestionar licencia de funcionamiento por motivos laborales, caso numero 420, espero la revision correspondiente",Media,Rentas y Comercializacion
+"Solicito impuesto predial adjuntando documentos completos, caso numero 421, agradecere la atencion",Baja,Rentas y Comercializacion
+"Requiero autoavaluo con la documentacion requerida, caso numero 422, adjunto informacion adicional",Baja,Rentas y Comercializacion
+"Deseo tramitar arbitrios para uso personal, caso numero 423, agradezco su apoyo",Baja,Rentas y Comercializacion
+"Necesito gestionar fraccionamiento de deudas a fin de cumplir la normativa, caso numero 424, quedo atento a respuesta",Media,Rentas y Comercializacion
+"Presento expediente para autorizacion de anuncios para continuar otro procedimiento, caso numero 425, se incluyen sustentos",Media,Rentas y Comercializacion
+"Vengo a solicitar licencia de edificacion modalidad A segun orientacion recibida, caso numero 426, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir licencia de edificacion modalidad B para una gestion bancaria, caso numero 427, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener licencia de edificacion modalidad C porque debo regularizar una situacion pendiente, caso numero 428, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando licencia de edificacion modalidad D antes de la fecha indicada, caso numero 429, por favor revisar el caso",Alta,Desarrollo Urbano y Obras
+"Corresponde gestionar constancia de posesion por motivos laborales, caso numero 430, espero la revision correspondiente",Media,Desarrollo Urbano y Obras
+"Solicito certificado de parametros urbanisticos adjuntando documentos completos, caso numero 431, agradecere la atencion",Baja,Desarrollo Urbano y Obras
+"Requiero autorizacion de rotura de vias con la documentacion requerida, caso numero 432, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar ITSE basica para uso personal, caso numero 433, agradezco su apoyo",Media,Gestion de Riesgos
+"Necesito gestionar ITSE de detalle a fin de cumplir la normativa, caso numero 434, quedo atento a respuesta",Alta,Gestion de Riesgos
+"Presento expediente para acceso a informacion publica para continuar otro procedimiento, caso numero 435, se incluyen sustentos",Baja,Secretaria General
+"Vengo a solicitar recurso de apelacion segun orientacion recibida, caso numero 436, requiero pronta atencion",Alta,Secretaria General
+"Me acerco para pedir recurso de reconsideracion para una gestion bancaria, caso numero 437, solicito evaluacion",Media,Secretaria General
+"Quisiera obtener inscripcion de nacimiento porque debo regularizar una situacion pendiente, caso numero 438, presento todos los requisitos",Alta,Registro Civil
+"Estoy iniciando matrimonio civil antes de la fecha indicada, caso numero 439, por favor revisar el caso",Media,Registro Civil
+"Corresponde gestionar divorcio rapido por motivos laborales, caso numero 440, espero la revision correspondiente",Media,Registro Civil
+"Solicito copias de actas adjuntando documentos completos, caso numero 441, agradecere la atencion",Baja,Registro Civil
+"Requiero acta de defuncion con la documentacion requerida, caso numero 442, adjunto informacion adicional",Media,Registro Civil
+"Deseo tramitar licencia de funcionamiento para uso personal, caso numero 443, agradezco su apoyo",Media,Rentas y Comercializacion
+"Necesito gestionar impuesto predial a fin de cumplir la normativa, caso numero 444, quedo atento a respuesta",Baja,Rentas y Comercializacion
+"Presento expediente para autoavaluo para continuar otro procedimiento, caso numero 445, se incluyen sustentos",Baja,Rentas y Comercializacion
+"Vengo a solicitar arbitrios segun orientacion recibida, caso numero 446, requiero pronta atencion",Baja,Rentas y Comercializacion
+"Me acerco para pedir fraccionamiento de deudas para una gestion bancaria, caso numero 447, solicito evaluacion",Media,Rentas y Comercializacion
+"Quisiera obtener autorizacion de anuncios porque debo regularizar una situacion pendiente, caso numero 448, presento todos los requisitos",Media,Rentas y Comercializacion
+"Estoy iniciando licencia de edificacion modalidad A antes de la fecha indicada, caso numero 449, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar licencia de edificacion modalidad B por motivos laborales, caso numero 450, espero la revision correspondiente",Media,Desarrollo Urbano y Obras
+"Solicito licencia de edificacion modalidad C adjuntando documentos completos, caso numero 451, agradecere la atencion",Media,Desarrollo Urbano y Obras
+"Requiero licencia de edificacion modalidad D con la documentacion requerida, caso numero 452, adjunto informacion adicional",Alta,Desarrollo Urbano y Obras
+"Deseo tramitar constancia de posesion para uso personal, caso numero 453, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar certificado de parametros urbanisticos a fin de cumplir la normativa, caso numero 454, quedo atento a respuesta",Baja,Desarrollo Urbano y Obras
+"Presento expediente para autorizacion de rotura de vias para continuar otro procedimiento, caso numero 455, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar ITSE basica segun orientacion recibida, caso numero 456, requiero pronta atencion",Media,Gestion de Riesgos
+"Me acerco para pedir ITSE de detalle para una gestion bancaria, caso numero 457, solicito evaluacion",Alta,Gestion de Riesgos
+"Quisiera obtener acceso a informacion publica porque debo regularizar una situacion pendiente, caso numero 458, presento todos los requisitos",Baja,Secretaria General
+"Estoy iniciando recurso de apelacion antes de la fecha indicada, caso numero 459, por favor revisar el caso",Alta,Secretaria General
+"Corresponde gestionar recurso de reconsideracion por motivos laborales, caso numero 460, espero la revision correspondiente",Media,Secretaria General
+"Solicito inscripcion de nacimiento adjuntando documentos completos, caso numero 461, agradecere la atencion",Alta,Registro Civil
+"Requiero matrimonio civil con la documentacion requerida, caso numero 462, adjunto informacion adicional",Media,Registro Civil
+"Deseo tramitar divorcio rapido para uso personal, caso numero 463, agradezco su apoyo",Media,Registro Civil
+"Necesito gestionar copias de actas a fin de cumplir la normativa, caso numero 464, quedo atento a respuesta",Baja,Registro Civil
+"Presento expediente para acta de defuncion para continuar otro procedimiento, caso numero 465, se incluyen sustentos",Media,Registro Civil
+"Vengo a solicitar licencia de funcionamiento segun orientacion recibida, caso numero 466, requiero pronta atencion",Media,Rentas y Comercializacion
+"Me acerco para pedir impuesto predial para una gestion bancaria, caso numero 467, solicito evaluacion",Baja,Rentas y Comercializacion
+"Quisiera obtener autoavaluo porque debo regularizar una situacion pendiente, caso numero 468, presento todos los requisitos",Baja,Rentas y Comercializacion
+"Estoy iniciando arbitrios antes de la fecha indicada, caso numero 469, por favor revisar el caso",Baja,Rentas y Comercializacion
+"Corresponde gestionar fraccionamiento de deudas por motivos laborales, caso numero 470, espero la revision correspondiente",Media,Rentas y Comercializacion
+"Solicito autorizacion de anuncios adjuntando documentos completos, caso numero 471, agradecere la atencion",Media,Rentas y Comercializacion
+"Requiero licencia de edificacion modalidad A con la documentacion requerida, caso numero 472, adjunto informacion adicional",Media,Desarrollo Urbano y Obras
+"Deseo tramitar licencia de edificacion modalidad B para uso personal, caso numero 473, agradezco su apoyo",Media,Desarrollo Urbano y Obras
+"Necesito gestionar licencia de edificacion modalidad C a fin de cumplir la normativa, caso numero 474, quedo atento a respuesta",Media,Desarrollo Urbano y Obras
+"Presento expediente para licencia de edificacion modalidad D para continuar otro procedimiento, caso numero 475, se incluyen sustentos",Alta,Desarrollo Urbano y Obras
+"Vengo a solicitar constancia de posesion segun orientacion recibida, caso numero 476, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir certificado de parametros urbanisticos para una gestion bancaria, caso numero 477, solicito evaluacion",Baja,Desarrollo Urbano y Obras
+"Quisiera obtener autorizacion de rotura de vias porque debo regularizar una situacion pendiente, caso numero 478, presento todos los requisitos",Media,Desarrollo Urbano y Obras
+"Estoy iniciando ITSE basica antes de la fecha indicada, caso numero 479, por favor revisar el caso",Media,Gestion de Riesgos
+"Corresponde gestionar ITSE de detalle por motivos laborales, caso numero 480, espero la revision correspondiente",Alta,Gestion de Riesgos
+"Solicito acceso a informacion publica adjuntando documentos completos, caso numero 481, agradecere la atencion",Baja,Secretaria General
+"Requiero recurso de apelacion con la documentacion requerida, caso numero 482, adjunto informacion adicional",Alta,Secretaria General
+"Deseo tramitar recurso de reconsideracion para uso personal, caso numero 483, agradezco su apoyo",Media,Secretaria General
+"Necesito gestionar inscripcion de nacimiento a fin de cumplir la normativa, caso numero 484, quedo atento a respuesta",Alta,Registro Civil
+"Presento expediente para matrimonio civil para continuar otro procedimiento, caso numero 485, se incluyen sustentos",Media,Registro Civil
+"Vengo a solicitar divorcio rapido segun orientacion recibida, caso numero 486, requiero pronta atencion",Media,Registro Civil
+"Me acerco para pedir copias de actas para una gestion bancaria, caso numero 487, solicito evaluacion",Baja,Registro Civil
+"Quisiera obtener acta de defuncion porque debo regularizar una situacion pendiente, caso numero 488, presento todos los requisitos",Media,Registro Civil
+"Estoy iniciando licencia de funcionamiento antes de la fecha indicada, caso numero 489, por favor revisar el caso",Media,Rentas y Comercializacion
+"Corresponde gestionar impuesto predial por motivos laborales, caso numero 490, espero la revision correspondiente",Baja,Rentas y Comercializacion
+"Solicito autoavaluo adjuntando documentos completos, caso numero 491, agradecere la atencion",Baja,Rentas y Comercializacion
+"Requiero arbitrios con la documentacion requerida, caso numero 492, adjunto informacion adicional",Baja,Rentas y Comercializacion
+"Deseo tramitar fraccionamiento de deudas para uso personal, caso numero 493, agradezco su apoyo",Media,Rentas y Comercializacion
+"Necesito gestionar autorizacion de anuncios a fin de cumplir la normativa, caso numero 494, quedo atento a respuesta",Media,Rentas y Comercializacion
+"Presento expediente para licencia de edificacion modalidad A para continuar otro procedimiento, caso numero 495, se incluyen sustentos",Media,Desarrollo Urbano y Obras
+"Vengo a solicitar licencia de edificacion modalidad B segun orientacion recibida, caso numero 496, requiero pronta atencion",Media,Desarrollo Urbano y Obras
+"Me acerco para pedir licencia de edificacion modalidad C para una gestion bancaria, caso numero 497, solicito evaluacion",Media,Desarrollo Urbano y Obras
+"Quisiera obtener licencia de edificacion modalidad D porque debo regularizar una situacion pendiente, caso numero 498, presento todos los requisitos",Alta,Desarrollo Urbano y Obras
+"Estoy iniciando constancia de posesion antes de la fecha indicada, caso numero 499, por favor revisar el caso",Media,Desarrollo Urbano y Obras
+"Corresponde gestionar certificado de parametros urbanisticos por motivos laborales, caso numero 500, espero la revision correspondiente",Baja,Desarrollo Urbano y Obras

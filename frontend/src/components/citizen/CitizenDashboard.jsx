@@ -1,15 +1,13 @@
 import React from 'react';
 import HeroBanner from '../ui/HeroBanner';
 import TramiteForm from './TramiteForm';
-import MisTramitesTable from './MisTramitesTable';
 
 const CitizenDashboard = () => {
   return (
     <>
       <HeroBanner />
-      <div className="dashboard-layout">
+      <div style={{ maxWidth: '600px', margin: '1.5rem auto 0 auto', width: '100%' }}>
         <TramiteForm />
-        <MisTramitesTable />
       </div>
     </>
   );

@@ -19,3 +19,9 @@ export const updateTramite = async (id, updateData) => {
   const response = await apiClient.patch(`/tramites/${id}`, updateData);
   return response.data;
 };
+
+export const getPublicTramite = async (id, dni) => {
+  const response = await apiClient.get(`/tramites/publico/${id}/${dni}`);
+  return response.data;
+};
+

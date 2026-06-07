@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
-import { Bot, LogOut, User } from 'lucide-react';
+import { Home, Bot, LogOut, User, PlusCircle, History, LayoutDashboard } from 'lucide-react';
 import { AuthContext } from '../../contexts/AuthContext';
 import ThemeToggle from '../ui/ThemeToggle';
+import { NavLink } from 'react-router-dom';
 
 const SubNavbar = () => {
   const { user, logout } = useContext(AuthContext);
@@ -10,7 +11,47 @@ const SubNavbar = () => {
     <nav className="sub-navbar-gov">
       <div className="sub-navbar-container">
         <div className="nav-links">
-          <span className="nav-link active" style={{ cursor: 'default' }}><Bot size={14} /> Trámites IA</span>
+          <NavLink 
+            to="/" 
+            className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+            end
+          >
+            <Home size={14} /> Inicio
+          </NavLink>
+          {user && user.rol === 'ciudadano' && (
+            <>
+              <NavLink 
+                to="/dashboard" 
+                className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+              >
+                <PlusCircle size={14} /> Nuevo Trámite
+              </NavLink>
+              <NavLink 
+                to="/historial" 
+                className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+              >
+                <History size={14} /> Trámites
+              </NavLink>
+            </>
+          )}
+
+          {user && (user.rol === 'staff' || user.rol === 'admin') && (
+            <>
+              <NavLink 
+                to="/staff" 
+                className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+              >
+                <LayoutDashboard size={14} /> Bandeja de Trámites
+              </NavLink>
+              <NavLink 
+                to="/dashboard" 
+                className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+              >
+                <PlusCircle size={14} /> Registrar Entrada
+              </NavLink>
+            </>
+          )}
+
         </div>
         
         <div className="nav-actions">

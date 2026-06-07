@@ -33,6 +33,7 @@ class Tramite {
       SELECT 
         t.*,
         COALESCE(CONCAT(u.nombres, ' ', u.apellidos), 'No registrado') AS solicitante,
+        u.email AS solicitante_email,
         CONCAT(staff.nombres, ' ', staff.apellidos) AS asignado_nombre
       FROM tramites t
       LEFT JOIN usuarios u ON t.usuario_id = u.id
