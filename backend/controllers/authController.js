@@ -4,7 +4,7 @@ const Usuario = require('../models/Usuario');
 const { isValidEmail, isValidDni, checkRequiredFields } = require('../utils/validators');
 require('dotenv').config();
 
-const JWT_SECRET = process.env.JWT_SECRET || 'super_secreto_clave_municipalidad_la_victoria_2026_valida';
+const JWT_SECRET = process.env.JWT_SECRET || 'super_secreto_clave_municipalidad_yau_2026_valida';
 const JWT_EXPIRES_IN = process.env.JWT_EXPIRES_IN || '8h';
 
 /**

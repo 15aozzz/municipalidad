@@ -1,6 +1,6 @@
-# Municipalidad de La Victoria - API de Trámites Municipales 🏛️
+# Municipalidad de Yau - API de Trámites Municipales 🏛️
 
-Este es el backend desarrollado en **Node.js** con **Express** para el sistema de trámites de la **Municipalidad de La Victoria**. Integra autenticación segura basada en tokens JWT, un pool de conexiones optimizado para **MySQL (XAMPP)**, y realiza una clasificación inteligente en tiempo real mediante un modelo de Machine Learning en **Google Colab (Flask + ngrok)**.
+Este es el backend desarrollado en **Node.js** con **Express** para el sistema de trámites de la **Municipalidad de Yau**. Integra autenticación segura basada en tokens JWT, un pool de conexiones optimizado para **MySQL (XAMPP)**, y realiza una clasificación inteligente en tiempo real mediante un modelo de Machine Learning en **Google Colab (Flask + ngrok)**.
 
 ---
 
@@ -35,9 +35,9 @@ Sigue estos sencillos pasos para levantar el backend en tu entorno local:
    DB_HOST=localhost
    DB_USER=root
    DB_PASS=
-   DB_NAME=municipalidad_la_victoria
+   DB_NAME=municipalidad_yau
    DB_PORT=3306
-   JWT_SECRET=super_secreto_clave_municipalidad_la_victoria_2026_valida
+   JWT_SECRET=super_secreto_clave_municipalidad_yau_2026_valida
    JWT_EXPIRES_IN=8h
    COLAB_URL=https://xxxx.ngrok.io/clasificar
    ```
@@ -113,7 +113,7 @@ Todas las respuestas de la API utilizan un formato JSON estándar y predecible:
 * **Payload (JSON):**
   ```json
   {
-    "email": "ana.quispe@lavictoria.gob.pe",
+    "email": "ana.quispe@yau.gob.pe",
     "password": "staff123"
   }
   ```
@@ -129,7 +129,7 @@ Todas las respuestas de la API utilizan un formato JSON estándar y predecible:
         "dni": "12345678",
         "nombres": "Ana",
         "apellidos": "Quispe",
-        "email": "ana.quispe@lavictoria.gob.pe",
+        "email": "ana.quispe@yau.gob.pe",
         "rol": "staff"
       }
     }

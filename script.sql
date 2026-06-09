@@ -1,11 +1,11 @@
 -- ======================================================
--- BASE DE DATOS: MUNICIPALIDAD DE LA VICTORIA
+-- BASE DE DATOS: MUNICIPALIDAD DE YAU
 -- PARA XAMPP (MySQL / MariaDB)
 -- ======================================================
-CREATE DATABASE IF NOT EXISTS municipalidad_la_victoria
+CREATE DATABASE IF NOT EXISTS municipalidad_yau
 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
-USE municipalidad_la_victoria;
+USE municipalidad_yau;
 
 -- ======================================================
 -- TABLA: usuarios (ciudadanos y personal)
@@ -54,9 +54,9 @@ CREATE TABLE tramites (
 
 -- Usuarios
 INSERT INTO usuarios (dni, nombres, apellidos, email, password, rol, telefono, direccion) VALUES
-('00000001', 'Admin', 'Sistema', 'admin@lavictoria.gob.pe', 'admin123', 'admin', '999999999', 'Palacio Municipal'),
-('12345678', 'Ana', 'Quispe', 'ana.quispe@lavictoria.gob.pe', 'staff123', 'staff', '987654321', 'Mesa de Partes'),
-('87654321', 'Roberto', 'Chávez', 'roberto.chavez@lavictoria.gob.pe', 'staff123', 'staff', '912345678', 'Defensa Civil'),
+('00000001', 'Admin', 'Sistema', 'admin@yau.gob.pe', 'admin123', 'admin', '999999999', 'Palacio Municipal'),
+('12345678', 'Ana', 'Quispe', 'ana.quispe@yau.gob.pe', 'staff123', 'staff', '987654321', 'Mesa de Partes'),
+('87654321', 'Roberto', 'Chávez', 'roberto.chavez@yau.gob.pe', 'staff123', 'staff', '912345678', 'Defensa Civil'),
 ('10485721', 'Juan', 'Pérez', 'juan.perez@gmail.com', 'ciudadano123', 'ciudadano', '955123456', 'Av. Aviación 1234'),
 ('42918472', 'María', 'López', 'maria.lopez@hotmail.com', 'ciudadano123', 'ciudadano', '955654321', 'Jr. Huánuco 567');
 

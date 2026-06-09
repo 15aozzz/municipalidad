@@ -22,7 +22,7 @@
       --transition-slow: 0.45s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    /* Tema Claro (Predeterminado - Identidad Corporativa de La Victoria) */
+    /* Tema Claro (Predeterminado - Identidad Corporativa de Yau) */
     html[data-theme="light"] {
       --bg-primary: #f3f4f6; /* Gris claro institucional de fondo */
       --bg-secondary: #ffffff; /* Blanco puro para tarjetas y cabeceras */
@@ -33,7 +33,7 @@
       --text-secondary: #475569;
       --text-muted: #64748b;
       --border-color: #e5e7eb;
-      --primary-color: #1351A5; /* Azul Corporativo de La Victoria */
+      --primary-color: #1351A5; /* Azul Corporativo de Yau */
       --primary-hover: #0f4287;
       --primary-glow: rgba(19, 81, 165, 0.12);
       --glass-bg: rgba(255, 255, 255, 0.9);

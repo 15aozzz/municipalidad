@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const Usuario = require('../models/Usuario');
 require('dotenv').config();
 
-const JWT_SECRET = process.env.JWT_SECRET || 'super_secreto_clave_municipalidad_la_victoria_2026_valida';
+const JWT_SECRET = process.env.JWT_SECRET || 'super_secreto_clave_municipalidad_yau_2026_valida';
 
 /**
  * Middleware para verificar la validez del token JWT.

@@ -6,7 +6,7 @@ const pool = mysql.createPool({
   host: process.env.DB_HOST || 'localhost',
   user: process.env.DB_USER || 'root',
   password: process.env.DB_PASS || '',
-  database: process.env.DB_NAME || 'municipalidad_la_victoria',
+  database: process.env.DB_NAME || 'municipalidad_yau',
   port: process.env.DB_PORT || 3306,
   waitForConnections: true,
   connectionLimit: 10,
@@ -21,7 +21,7 @@ const testConnection = async () => {
     connection.release();
   } catch (error) {
     console.error('❌ Error al conectar a la base de datos MySQL:');
-    console.error(`Asegúrate de que XAMPP esté iniciado y que la base de datos "${process.env.DB_NAME || 'municipalidad_la_victoria'}" exista.`);
+    console.error(`Asegúrate de que XAMPP esté iniciado y que la base de datos "${process.env.DB_NAME || 'municipalidad_yau'}" exista.`);
     console.error(error.message);
   }
 };

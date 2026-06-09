@@ -1,7 +1,7 @@
 {
-  "name": "backend-municipalidad-la-victoria",
+  "name": "backend-municipalidad-yau",
   "version": "1.0.0",
-  "description": "Backend en Express para el sistema de trámites de la Municipalidad de La Victoria con integración a Google Colab ML",
+  "description": "Backend en Express para el sistema de trámites de la Municipalidad de Yau con integración a Google Colab ML",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

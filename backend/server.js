@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/', (req, res) => {
   res.status(200).json({
     success: true,
-    message: 'Sistema de Trámites Municipales - Municipalidad de La Victoria API activa 🏛️',
+    message: 'Sistema de Trámites Municipales - Municipalidad de Yau API activa 🏛️',
     version: '1.0.0',
     timestamp: new Date()
   });

@@ -1,6 +1,6 @@
-# Sistema de Gestión de Trámites Municipales - Municipalidad de La Victoria 🏛️🤖
+# Sistema de Gestión de Trámites Municipales - Municipalidad de Yau 🏛️🤖
 
-Este proyecto es una plataforma web moderna para la **Municipalidad de La Victoria** orientada a digitalizar, agilizar e indexar automáticamente los trámites y solicitudes presentados por los ciudadanos. El sistema integra **Inteligencia Artificial (IA)** para clasificar automáticamente las solicitudes en tiempo real mediante un modelo de lenguaje alojado en **Google Colab**.
+Este proyecto es una plataforma web moderna para la **Municipalidad de Yau** orientada a digitalizar, agilizar e indexar automáticamente los trámites y solicitudes presentados por los ciudadanos. El sistema integra **Inteligencia Artificial (IA)** para clasificar automáticamente las solicitudes en tiempo real mediante un modelo de lenguaje alojado en **Google Colab**.
 
 ---
 
@@ -148,9 +148,9 @@ Este es el flujo principal de integración tecnológica:
    DB_HOST=localhost
    DB_USER=root
    DB_PASS=
-   DB_NAME=municipalidad_la_victoria
+   DB_NAME=municipalidad_yau
    DB_PORT=3306
-   JWT_SECRET=super_secreto_clave_municipalidad_la_victoria_2026_valida
+   JWT_SECRET=super_secreto_clave_municipalidad_yau_2026_valida
    COLAB_URL=https://[TU-URL-DE-NGROK].ngrok-free.dev/clasificar
    ```
 3. Inicie el servidor de desarrollo:
@@ -176,5 +176,5 @@ Este es el flujo principal de integración tecnológica:
 ### Base de Datos (`MySQL / MariaDB`)
 1. Inicie **Apache** y **MySQL** desde el Panel de Control de **XAMPP**.
 2. Vaya a `http://localhost/phpmyadmin`.
-3. Cree una base de datos llamada `municipalidad_la_victoria`.
+3. Cree una base de datos llamada `municipalidad_yau`.
 4. Importe el archivo `script.sql` ubicado en la raíz del proyecto para crear las tablas, índices, vistas e insertar los usuarios y trámites semilla de prueba.
