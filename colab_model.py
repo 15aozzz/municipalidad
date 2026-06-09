@@ -2,7 +2,8 @@
 """
 Google Colab - Clasificador de Trámites Municipales - dataset_tramites_municipales_500_unicos
 """
-
+!pip install flask-cors
+!pip install pyngrok
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -113,7 +114,7 @@ def obtener_accion_sugerida(texto, prioridad, area):
         'Baja':  'Derivar a Mesa de Partes',
     }
     return defaults.get(prioridad, 'Derivar a Mesa de Partes')
-    
+
 # ==========================================
 # Paso 5: Creación de la API Flask
 # ==========================================
